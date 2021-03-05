@@ -1,0 +1,549 @@
+
+    -----------------------------------------------------------------------
+          Psi4: An Open-Source Ab Initio Electronic Structure Package
+                               Psi4 1.4a2.dev845 
+
+                         Git: Rev {sgoodlett} c139f7d dirty
+
+
+    D. G. A. Smith, L. A. Burns, A. C. Simmonett, R. M. Parrish,
+    M. C. Schieber, R. Galvelis, P. Kraus, H. Kruse, R. Di Remigio,
+    A. Alenaizan, A. M. James, S. Lehtola, J. P. Misiewicz, M. Scheurer,
+    R. A. Shaw, J. B. Schriber, Y. Xie, Z. L. Glick, D. A. Sirianni,
+    J. S. O'Brien, J. M. Waldrop, A. Kumar, E. G. Hohenstein,
+    B. P. Pritchard, B. R. Brooks, H. F. Schaefer III, A. Yu. Sokolov,
+    K. Patkowski, A. E. DePrince III, U. Bozkaya, R. A. King,
+    F. A. Evangelista, J. M. Turney, T. D. Crawford, C. D. Sherrill,
+    J. Chem. Phys. 152(18) 184108 (2020). https://doi.org/10.1063/5.0006002
+
+                            Additional Code Authors
+    E. T. Seidl, C. L. Janssen, E. F. Valeev, M. L. Leininger,
+    J. F. Gonthier, R. M. Richard, H. R. McAlexander, M. Saitow, X. Wang,
+    P. Verma, and M. H. Lechner
+
+             Previous Authors, Complete List of Code Contributors,
+                       and Citations for Specific Modules
+    https://github.com/psi4/psi4/blob/master/codemeta.json
+    https://github.com/psi4/psi4/graphs/contributors
+    http://psicode.org/psi4manual/master/introduction.html#citing-psifour
+
+    -----------------------------------------------------------------------
+
+
+    Psi4 started on: Friday, 08 January 2021 11:07AM
+
+    Process ID: 24702
+    Host:       smg13363-ws
+    PSIDATADIR: /home/smg13363/psi4/objdir/stage/share/psi4
+    Memory:     500.0 MiB
+    Threads:    1
+    
+  ==> Input File <==
+
+--------------------------------------------------------------------------
+memory 24 GB
+molecule {
+symmetry c1
+0 3
+O
+H 1 R1
+O 1 R3 2 A1
+H 3 R2 1 A2 2 D1
+A1        =   91.0886920327
+A2        =   91.0886920327
+D1        = -180.0000000000
+R1        =    0.9525332588
+R2        =    0.9525332588
+R3        =    1.8090589995
+}
+set {
+basis aug-cc-pvdz
+e_convergence 10
+reference uhf
+scf_type pk
+stability_analysis follow
+}
+
+wfn = energy("scf", return_wfn=True)[1]
+wfn.write_molden('c1.molden')
+
+--------------------------------------------------------------------------
+
+  Memory set to  22.352 GiB by Python driver.
+
+Scratch directory: /tmp/
+
+*** tstart() called on smg13363-ws
+*** at Fri Jan  8 11:07:21 2021
+
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1, 3 entry O          line   254 file /home/smg13363/psi4/objdir/stage/share/psi4/basis/aug-cc-pvdz.gbs 
+    atoms 2, 4 entry H          line    40 file /home/smg13363/psi4/objdir/stage/share/psi4/basis/aug-cc-pvdz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              UHF Reference
+                        1 Threads,  22888 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C2h
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 3:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         O            0.904366215424    -0.017186166449     0.000000000000    15.994914619570
+         H            0.904366215424    -0.969719425249     0.000000000000     1.007825032230
+         O           -0.904366215424     0.017186166449     0.000000000000    15.994914619570
+         H           -0.904366215424     0.969719425249     0.000000000000     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      9.86770  B =      0.60187  C =      0.56727 [cm^-1]
+  Rotational constants: A = 295826.12109  B =  18043.54488  C =  17006.26875 [MHz]
+  Nuclear repulsion =   31.918464717377521
+
+  Charge       = 0
+  Multiplicity = 3
+  Electrons    = 18
+  Nalpha       = 10
+  Nbeta        = 8
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-10
+  Density threshold  = 1.00e-06
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: AUG-CC-PVDZ
+    Blend: AUG-CC-PVDZ
+    Number of shells: 28
+    Number of basis function: 64
+    Number of Cartesian functions: 68
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   4
+      Number of AO shells:              28
+      Number of primitives:             64
+      Number of atomic orbitals:        68
+      Number of basis functions:        64
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 4328480 doubles for integral storage.
+  We computed 82621 shell quartets total.
+  Whereas there are 82621 unique shell quartets.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:            17166
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  Minimum eigenvalue in the overlap matrix is 1.6938505269E-03.
+  Reciprocal condition number of the overlap matrix is 2.7115467153E-04.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         64      64 
+   -------------------------
+    Total      64      64
+   -------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @UHF iter SAD:  -149.56056996189335   -1.49561e+02   0.00000e+00 
+   @UHF iter   1:  -150.65302769293586   -1.09246e+00   5.17911e-03 DIIS
+   @UHF iter   2:  -150.71113791977044   -5.81102e-02   2.39464e-03 DIIS
+   @UHF iter   3:  -150.72186648616895   -1.07286e-02   8.33252e-04 DIIS
+   @UHF iter   4:  -150.72527091397180   -3.40443e-03   2.89015e-04 DIIS
+   @UHF iter   5:  -150.72576626804812   -4.95354e-04   9.99294e-05 DIIS
+   @UHF iter   6:  -150.72583539129462   -6.91232e-05   3.57437e-05 DIIS
+   @UHF iter   7:  -150.72584516604869   -9.77475e-06   1.24475e-05 DIIS
+   @UHF iter   8:  -150.72584636263753   -1.19659e-06   3.22943e-06 DIIS
+   @UHF iter   9:  -150.72584643186892   -6.92314e-08   6.55912e-07 DIIS
+   @UHF iter  10:  -150.72584643403633   -2.16741e-09   1.52793e-07 DIIS
+   @UHF iter  11:  -150.72584643416758   -1.31251e-10   3.68462e-08 DIIS
+   @UHF iter  12:  -150.72584643417687   -9.29390e-12   1.30284e-08 DIIS
+  Energy and wave function converged.
+
+
+         ------------------------------------------------------------
+                              UHF Stability code                     
+                                Jérôme Gonthier                     
+                   Strong inspiration from R. Parrish's CIS          
+         ------------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C2h
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 3:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         O            0.904366215424    -0.017186166449     0.000000000000    15.994914619570
+         H            0.904366215424    -0.969719425249     0.000000000000     1.007825032230
+         O           -0.904366215424     0.017186166449     0.000000000000    15.994914619570
+         H           -0.904366215424     0.969719425249     0.000000000000     1.007825032230
+
+  Nuclear repulsion =   31.918464717377521
+  ==> Basis Set <==
+
+  Basis Set: AUG-CC-PVDZ
+    Blend: AUG-CC-PVDZ
+    Number of shells: 28
+    Number of basis function: 64
+    Number of Cartesian functions: 68
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   4
+      Number of AO shells:              28
+      Number of primitives:             64
+      Number of atomic orbitals:        68
+      Number of basis functions:        64
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 4328480 doubles for integral storage.
+  We computed 82621 shell quartets total.
+  Whereas there are 82621 unique shell quartets.
+
+  ==> DLUSolver (by Jerome Gonthier) <== 
+ ==> (Basically a copy-paste from R.Parrish DLR Solver) <== 
+
+   Number of roots         =           1
+   Number of guess vectors =           3
+   Maximum subspace size   =          12
+   Minimum subspace size   =           2
+   Subspace expansion norm =       1E-06
+   Convergence cutoff      =       1E-06
+   Maximum iterations      =         100
+   Preconditioning         =      JACOBI
+
+  ==> USTABHamiltonian (by Jérôme Gonthier) <== 
+  ==> Inspired by R.Parrish CISRHamiltonian <== 
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:            17166
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  => Iterations <=
+
+             Iter  Converged   Subspace    Residual
+  DLU           1          0          1   9.837E-01
+  DLU           2          0          2   9.245E-01
+  DLU           3          0          3   4.715E-01
+  DLU           4          0          4   2.118E-01
+  DLU           5          0          5   6.402E-02
+  DLU           6          0          6   1.473E-02
+  DLU           7          0          7   4.613E-03
+  DLU           8          0          8   1.560E-03
+  DLU           9          0          9   3.234E-04
+  DLU          10          0         10   6.344E-05
+  DLU          11          0         11   1.569E-05
+  DLU          12          0         12   3.741E-06
+  DLU          13          1         13   9.688E-07
+
+    DLUSolver converged.
+
+    Negative totally symmetric eigenvalue detected: -0.141625 
+    Wavefunction unstable!
+    Lowest UHF->UHF stability eigenvalues: 
+       A -0.141625     
+
+    Rotating orbitals by 0.500000 * pi / 2 radians along unstable eigenvector.
+    Running SCF again with the rotated orbitals.
+   @UHF iter  13:  -150.75385977237383   -1.50754e+02   1.78220e-03 DIIS
+   @UHF iter  14:  -150.76321266683655   -9.35289e-03   7.48500e-04 DIIS
+   @UHF iter  15:  -150.76464413224565   -1.43147e-03   3.44516e-04 DIIS
+   @UHF iter  16:  -150.76511822411393   -4.74092e-04   1.32020e-04 DIIS
+   @UHF iter  17:  -150.76524765309458   -1.29429e-04   6.17158e-05 DIIS
+   @UHF iter  18:  -150.76528150472348   -3.38516e-05   2.94409e-05 DIIS
+   @UHF iter  19:  -150.76529193900743   -1.04343e-05   1.09997e-05 DIIS
+   @UHF iter  20:  -150.76529338449257   -1.44549e-06   4.30757e-06 DIIS
+   @UHF iter  21:  -150.76529357009915   -1.85607e-07   1.69066e-06 DIIS
+   @UHF iter  22:  -150.76529360163028   -3.15311e-08   5.64617e-07 DIIS
+   @UHF iter  23:  -150.76529360481851   -3.18823e-09   1.83912e-07 DIIS
+   @UHF iter  24:  -150.76529360510699   -2.88480e-10   6.86722e-08 DIIS
+   @UHF iter  25:  -150.76529360514883   -4.18368e-11   2.16439e-08 DIIS
+
+         ------------------------------------------------------------
+                              UHF Stability code                     
+                                Jérôme Gonthier                     
+                   Strong inspiration from R. Parrish's CIS          
+         ------------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C2h
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 3:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         O            0.904366215424    -0.017186166449     0.000000000000    15.994914619570
+         H            0.904366215424    -0.969719425249     0.000000000000     1.007825032230
+         O           -0.904366215424     0.017186166449     0.000000000000    15.994914619570
+         H           -0.904366215424     0.969719425249     0.000000000000     1.007825032230
+
+  Nuclear repulsion =   31.918464717377521
+  ==> Basis Set <==
+
+  Basis Set: AUG-CC-PVDZ
+    Blend: AUG-CC-PVDZ
+    Number of shells: 28
+    Number of basis function: 64
+    Number of Cartesian functions: 68
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   4
+      Number of AO shells:              28
+      Number of primitives:             64
+      Number of atomic orbitals:        68
+      Number of basis functions:        64
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 4328480 doubles for integral storage.
+  We computed 82621 shell quartets total.
+  Whereas there are 82621 unique shell quartets.
+
+  ==> DLUSolver (by Jerome Gonthier) <== 
+ ==> (Basically a copy-paste from R.Parrish DLR Solver) <== 
+
+   Number of roots         =           1
+   Number of guess vectors =           3
+   Maximum subspace size   =          12
+   Minimum subspace size   =           2
+   Subspace expansion norm =       1E-06
+   Convergence cutoff      =       1E-06
+   Maximum iterations      =         100
+   Preconditioning         =      JACOBI
+
+  ==> USTABHamiltonian (by Jérôme Gonthier) <== 
+  ==> Inspired by R.Parrish CISRHamiltonian <== 
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:            17166
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  => Iterations <=
+
+             Iter  Converged   Subspace    Residual
+  DLU           1          0          1   2.371E-01
+  DLU           2          0          2   4.188E-01
+  DLU           3          0          3   8.503E-01
+  DLU           4          0          4   8.913E-01
+  DLU           5          0          5   9.585E-01
+  DLU           6          0          6   9.806E-01
+  DLU           7          0          7   9.500E-01
+  DLU           8          0          8   7.670E-01
+  DLU           9          0          9   5.195E-01
+  DLU          10          0         10   3.122E-01
+  DLU          11          0         11   8.107E-02
+  DLU          12          0         12   1.910E-02
+  DLU          13          0         13   5.595E-03
+  DLU          14          0          3   2.029E-03
+  DLU          15          0          4   3.145E-04
+  DLU          16          0          5   5.654E-05
+  DLU          17          0          6   1.378E-05
+  DLU          18          0          7   7.959E-06
+  DLU          19          0          8   4.394E-06
+  DLU          20          0          9   1.585E-06
+  DLU          21          1         10   4.333E-07
+
+    DLUSolver converged.
+
+    Wavefunction stable under totally symmetric rotations.
+    Lowest totally symmetric eigenvalue: 0.008892 
+    Lowest UHF->UHF stability eigenvalues: 
+       A 0.008892      
+
+    Stability analysis over.
+
+  ==> Post-Iterations <==
+
+   @Spin Contamination Metric:   2.310086667E-02
+   @S^2 Expected:                2.000000000E+00
+   @S^2 Observed:                2.023100867E+00
+   @S   Expected:                1.000000000E+00
+   @S   Observed:                1.000000000E+00
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Alpha Occupied:                                                       
+
+       1A    -20.670313     2A    -20.604132     3A     -1.462088  
+       4A     -1.342798     5A     -0.733868     6A     -0.713608  
+       7A     -0.690451     8A     -0.636539     9A     -0.525149  
+      10A     -0.485313  
+
+    Alpha Virtual:                                                        
+
+      11A      0.038807    12A      0.054188    13A      0.151504  
+      14A      0.184044    15A      0.198108    16A      0.210474  
+      17A      0.223720    18A      0.237607    19A      0.237994  
+      20A      0.326003    21A      0.338896    22A      0.361999  
+      23A      0.426785    24A      0.431823    25A      0.461988  
+      26A      0.556250    27A      0.632456    28A      0.659576  
+      29A      0.869912    30A      0.899432    31A      0.907717  
+      32A      1.040652    33A      1.066009    34A      1.104444  
+      35A      1.146835    36A      1.178441    37A      1.223037  
+      38A      1.285848    39A      1.314342    40A      1.355658  
+      41A      1.470205    42A      1.568089    43A      1.568773  
+      44A      1.619150    45A      1.901930    46A      2.041869  
+      47A      2.095780    48A      2.101580    49A      2.216627  
+      50A      2.402183    51A      2.567276    52A      2.738892  
+      53A      2.867895    54A      3.160518    55A      3.545295  
+      56A      3.575732    57A      3.583837    58A      3.613378  
+      59A      3.659253    60A      3.687764    61A      3.728808  
+      62A      3.743473    63A      4.165635    64A      4.218530  
+
+    Beta Occupied:                                                        
+
+       1A    -20.617561     2A    -20.559431     3A     -1.291884  
+       4A     -1.179995     5A     -0.674936     6A     -0.605075  
+       7A     -0.502864     8A     -0.467885  
+
+    Beta Virtual:                                                         
+
+       9A      0.040405    10A      0.051998    11A      0.064095  
+      12A      0.129833    13A      0.183703    14A      0.204072  
+      15A      0.218884    16A      0.221645    17A      0.237285  
+      18A      0.265672    19A      0.282646    20A      0.332347  
+      21A      0.343944    22A      0.372958    23A      0.433704  
+      24A      0.440184    25A      0.473858    26A      0.570399  
+      27A      0.651995    28A      0.674624    29A      0.888821  
+      30A      0.913296    31A      0.935781    32A      1.058532  
+      33A      1.099371    34A      1.139862    35A      1.160375  
+      36A      1.238155    37A      1.292543    38A      1.312852  
+      39A      1.332880    40A      1.457412    41A      1.487449  
+      42A      1.638466    43A      1.639630    44A      1.705389  
+      45A      1.935119    46A      2.048695    47A      2.099817  
+      48A      2.117103    49A      2.226370    50A      2.420585  
+      51A      2.598746    52A      2.756541    53A      2.883106  
+      54A      3.209424    55A      3.657851    56A      3.677276  
+      57A      3.688584    58A      3.710441    59A      3.715008  
+      60A      3.725721    61A      3.797485    62A      3.837305  
+      63A      4.205282    64A      4.257925  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     8 ]
+    SOCC [     2 ]
+
+  @UHF Final Energy:  -150.76529360514883
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =             31.9184647173775211
+    One-Electron Energy =                -271.6036265965506118
+    Two-Electron Energy =                  88.9198682740242674
+    Total Energy =                       -150.7652936051488268
+
+  UHF NO Occupations:
+  HONO-2 :    8  A 1.9962950
+  HONO-1 :    9  A 1.0000000
+  HONO-0 :   10  A 1.0000000
+  LUNO+0 :   11  A 0.0037050
+  LUNO+1 :   12  A 0.0023022
+  LUNO+2 :   13  A 0.0019242
+  LUNO+3 :   14  A 0.0017581
+
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: [e a0]
+     X:     0.0000      Y:     0.0000      Z:     0.0000
+
+  Electronic Dipole Moment: [e a0]
+     X:     0.3072      Y:    -0.0581      Z:    -0.0000
+
+  Dipole Moment: [e a0]
+     X:     0.3072      Y:    -0.0581      Z:    -0.0000     Total:     0.3126
+
+  Dipole Moment: [D]
+     X:     0.7808      Y:    -0.1476      Z:    -0.0000     Total:     0.7947
+
+
+*** tstop() called on smg13363-ws at Fri Jan  8 11:07:24 2021
+Module time:
+	user time   =       2.50 seconds =       0.04 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          3 seconds =       0.05 minutes
+Total time:
+	user time   =       2.50 seconds =       0.04 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          3 seconds =       0.05 minutes
+
+    Psi4 stopped on: Friday, 08 January 2021 11:07AM
+    Psi4 wall time for execution: 0:00:02.57
+
+*** Psi4 exiting successfully. Buy a developer a beer!

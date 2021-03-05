@@ -1,0 +1,2626 @@
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 09:34:01 2021
+Timers Off: Tue Jan  5 09:34:38 2021
+
+Wall Time:       36.24 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      9.667u      0.100s      5.879w     28 calls
+HF: Form core H                     :      0.083u      0.000s      0.010w     28 calls
+HF: Form S/X                        :      0.000u      0.000s      0.004w     28 calls
+HF: Guess                           :      1.983u      0.000s      1.202w     28 calls
+SAD Guess                           :      1.917u      0.000s      1.126w     10 calls
+HF: Form G                          :      2.083u      0.017s      1.231w    330 calls
+JK: D                               :      0.000u      0.000s      0.003w    330 calls
+JK: USO2AO                          :      0.033u      0.000s      0.020w    330 calls
+JK: JK                              :      2.017u      0.017s      1.172w    330 calls
+PK computes JK                      :      2.017u      0.017s      1.172w    330 calls
+JK: AO2USO                          :      0.033u      0.000s      0.024w    330 calls
+HF: Form F                          :      0.000u      0.000s      0.003w    330 calls
+HF: Form D                          :      0.000u      0.000s      0.003w    330 calls
+HF: DIIS                            :      0.183u      0.000s      0.130w    320 calls
+DIISManager::add_entry              :      0.050u      0.000s      0.015w    302 calls
+DIISManager::extrapolate            :      0.100u      0.000s      0.027w    302 calls
+bMatrix setup                       :      0.050u      0.000s      0.010w    302 calls
+bMatrix pseudoinverse               :      0.017u      0.000s      0.008w    302 calls
+New vector                          :      0.033u      0.000s      0.008w    302 calls
+HF: Form C                          :      0.100u      0.000s      0.061w    320 calls
+Grad: V T Perturb                   :      0.617u      0.033s      0.355w     28 calls
+Grad: S                             :      0.033u      0.000s      0.018w     28 calls
+Grad: JK                            :     36.883u      0.017s     22.159w     28 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     28 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      9.667u      0.100s      5.879w     28 calls
+HF: Form core H                     :      0.083u      0.000s      0.010w     28 calls
+HF: Form S/X                        :      0.000u      0.000s      0.004w     28 calls
+HF: Guess                           :      1.983u      0.000s      1.202w     28 calls
+| SAD Guess                         :      1.917u      0.000s      1.126w     10 calls
+HF: Form G                          :      2.083u      0.017s      1.231w    330 calls
+| JK: D                             :      0.000u      0.000s      0.003w    330 calls
+| JK: USO2AO                        :      0.033u      0.000s      0.020w    330 calls
+| JK: JK                            :      2.017u      0.017s      1.172w    330 calls
+| | PK computes JK                  :      2.017u      0.017s      1.172w    330 calls
+| JK: AO2USO                        :      0.033u      0.000s      0.024w    330 calls
+HF: Form F                          :      0.000u      0.000s      0.003w    330 calls
+HF: Form D                          :      0.000u      0.000s      0.003w    330 calls
+HF: DIIS                            :      0.183u      0.000s      0.130w    320 calls
+| DIISManager::add_entry            :      0.050u      0.000s      0.015w    302 calls
+| DIISManager::extrapolate          :      0.100u      0.000s      0.027w    302 calls
+| | bMatrix setup                   :      0.050u      0.000s      0.010w    302 calls
+| | bMatrix pseudoinverse           :      0.017u      0.000s      0.008w    302 calls
+| | New vector                      :      0.033u      0.000s      0.008w    302 calls
+HF: Form C                          :      0.100u      0.000s      0.061w    320 calls
+Grad: V T Perturb                   :      0.617u      0.033s      0.355w     28 calls
+Grad: S                             :      0.033u      0.000s      0.018w     28 calls
+Grad: JK                            :     36.883u      0.017s     22.159w     28 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     28 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 09:39:32 2021
+Timers Off: Tue Jan  5 09:40:08 2021
+
+Wall Time:       36.34 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      9.767u      0.150s      5.942w     28 calls
+HF: Form core H                     :      0.000u      0.000s      0.010w     28 calls
+HF: Form S/X                        :      0.000u      0.000s      0.004w     28 calls
+HF: Guess                           :      2.000u      0.017s      1.207w     28 calls
+SAD Guess                           :      1.883u      0.000s      1.130w     10 calls
+HF: Form G                          :      1.983u      0.050s      1.210w    330 calls
+JK: D                               :      0.000u      0.000s      0.002w    330 calls
+JK: USO2AO                          :      0.033u      0.000s      0.020w    330 calls
+JK: JK                              :      1.850u      0.050s      1.151w    330 calls
+PK computes JK                      :      1.850u      0.050s      1.151w    330 calls
+JK: AO2USO                          :      0.067u      0.000s      0.024w    330 calls
+HF: Form F                          :      0.000u      0.000s      0.003w    330 calls
+HF: Form D                          :      0.000u      0.000s      0.003w    330 calls
+HF: DIIS                            :      0.217u      0.000s      0.130w    320 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.015w    302 calls
+DIISManager::extrapolate            :      0.033u      0.000s      0.027w    302 calls
+bMatrix setup                       :      0.000u      0.000s      0.010w    302 calls
+bMatrix pseudoinverse               :      0.017u      0.000s      0.008w    302 calls
+New vector                          :      0.017u      0.000s      0.008w    302 calls
+HF: Form C                          :      0.083u      0.000s      0.061w    320 calls
+Grad: V T Perturb                   :      0.567u      0.100s      0.399w     28 calls
+Grad: S                             :      0.050u      0.000s      0.018w     28 calls
+Grad: JK                            :     36.817u      0.000s     22.119w     28 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     28 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      9.767u      0.150s      5.942w     28 calls
+HF: Form core H                     :      0.000u      0.000s      0.010w     28 calls
+HF: Form S/X                        :      0.000u      0.000s      0.004w     28 calls
+HF: Guess                           :      2.000u      0.017s      1.207w     28 calls
+| SAD Guess                         :      1.883u      0.000s      1.130w     10 calls
+HF: Form G                          :      1.983u      0.050s      1.210w    330 calls
+| JK: D                             :      0.000u      0.000s      0.002w    330 calls
+| JK: USO2AO                        :      0.033u      0.000s      0.020w    330 calls
+| JK: JK                            :      1.850u      0.050s      1.151w    330 calls
+| | PK computes JK                  :      1.850u      0.050s      1.151w    330 calls
+| JK: AO2USO                        :      0.067u      0.000s      0.024w    330 calls
+HF: Form F                          :      0.000u      0.000s      0.003w    330 calls
+HF: Form D                          :      0.000u      0.000s      0.003w    330 calls
+HF: DIIS                            :      0.217u      0.000s      0.130w    320 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.015w    302 calls
+| DIISManager::extrapolate          :      0.033u      0.000s      0.027w    302 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.010w    302 calls
+| | bMatrix pseudoinverse           :      0.017u      0.000s      0.008w    302 calls
+| | New vector                      :      0.017u      0.000s      0.008w    302 calls
+HF: Form C                          :      0.083u      0.000s      0.061w    320 calls
+Grad: V T Perturb                   :      0.567u      0.100s      0.399w     28 calls
+Grad: S                             :      0.050u      0.000s      0.018w     28 calls
+Grad: JK                            :     36.817u      0.000s     22.119w     28 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     28 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 09:41:16 2021
+Timers Off: Tue Jan  5 09:41:24 2021
+
+Wall Time:        8.01 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      2.100u      0.050s      1.288w      6 calls
+HF: Form core H                     :      0.000u      0.000s      0.002w      6 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      6 calls
+HF: Guess                           :      0.400u      0.000s      0.242w      6 calls
+SAD Guess                           :      0.367u      0.000s      0.227w      2 calls
+HF: Form G                          :      0.483u      0.017s      0.261w     73 calls
+JK: D                               :      0.000u      0.000s      0.001w     73 calls
+JK: USO2AO                          :      0.017u      0.000s      0.004w     73 calls
+JK: JK                              :      0.450u      0.017s      0.248w     73 calls
+PK computes JK                      :      0.450u      0.017s      0.248w     73 calls
+JK: AO2USO                          :      0.017u      0.000s      0.006w     73 calls
+HF: Form F                          :      0.000u      0.000s      0.001w     73 calls
+HF: Form D                          :      0.000u      0.000s      0.001w     73 calls
+HF: DIIS                            :      0.017u      0.000s      0.028w     71 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.003w     67 calls
+DIISManager::extrapolate            :      0.017u      0.000s      0.006w     67 calls
+bMatrix setup                       :      0.017u      0.000s      0.002w     67 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.002w     67 calls
+New vector                          :      0.000u      0.000s      0.002w     67 calls
+HF: Form C                          :      0.050u      0.000s      0.014w     71 calls
+Grad: V T Perturb                   :      0.117u      0.017s      0.084w      6 calls
+Grad: S                             :      0.017u      0.000s      0.004w      6 calls
+Grad: JK                            :      7.933u      0.000s      4.754w      6 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      6 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      2.100u      0.050s      1.288w      6 calls
+HF: Form core H                     :      0.000u      0.000s      0.002w      6 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      6 calls
+HF: Guess                           :      0.400u      0.000s      0.242w      6 calls
+| SAD Guess                         :      0.367u      0.000s      0.227w      2 calls
+HF: Form G                          :      0.483u      0.017s      0.261w     73 calls
+| JK: D                             :      0.000u      0.000s      0.001w     73 calls
+| JK: USO2AO                        :      0.017u      0.000s      0.004w     73 calls
+| JK: JK                            :      0.450u      0.017s      0.248w     73 calls
+| | PK computes JK                  :      0.450u      0.017s      0.248w     73 calls
+| JK: AO2USO                        :      0.017u      0.000s      0.006w     73 calls
+HF: Form F                          :      0.000u      0.000s      0.001w     73 calls
+HF: Form D                          :      0.000u      0.000s      0.001w     73 calls
+HF: DIIS                            :      0.017u      0.000s      0.028w     71 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.003w     67 calls
+| DIISManager::extrapolate          :      0.017u      0.000s      0.006w     67 calls
+| | bMatrix setup                   :      0.017u      0.000s      0.002w     67 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.002w     67 calls
+| | New vector                      :      0.000u      0.000s      0.002w     67 calls
+HF: Form C                          :      0.050u      0.000s      0.014w     71 calls
+Grad: V T Perturb                   :      0.117u      0.017s      0.084w      6 calls
+Grad: S                             :      0.017u      0.000s      0.004w      6 calls
+Grad: JK                            :      7.933u      0.000s      4.754w      6 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      6 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 09:41:40 2021
+Timers Off: Tue Jan  5 09:41:48 2021
+
+Wall Time:        7.98 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      2.083u      0.050s      1.287w      6 calls
+HF: Form core H                     :      0.000u      0.000s      0.002w      6 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      6 calls
+HF: Guess                           :      0.383u      0.000s      0.240w      6 calls
+SAD Guess                           :      0.367u      0.000s      0.225w      2 calls
+HF: Form G                          :      0.450u      0.017s      0.259w     73 calls
+JK: D                               :      0.000u      0.000s      0.001w     73 calls
+JK: USO2AO                          :      0.000u      0.000s      0.004w     73 calls
+JK: JK                              :      0.417u      0.017s      0.246w     73 calls
+PK computes JK                      :      0.417u      0.017s      0.246w     73 calls
+JK: AO2USO                          :      0.017u      0.000s      0.005w     73 calls
+HF: Form F                          :      0.000u      0.000s      0.001w     73 calls
+HF: Form D                          :      0.000u      0.000s      0.001w     73 calls
+HF: DIIS                            :      0.033u      0.000s      0.028w     71 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.003w     67 calls
+DIISManager::extrapolate            :      0.000u      0.000s      0.006w     67 calls
+bMatrix setup                       :      0.000u      0.000s      0.002w     67 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.002w     67 calls
+New vector                          :      0.000u      0.000s      0.002w     67 calls
+HF: Form C                          :      0.033u      0.000s      0.014w     71 calls
+Grad: V T Perturb                   :      0.083u      0.017s      0.083w      6 calls
+Grad: S                             :      0.017u      0.000s      0.003w      6 calls
+Grad: JK                            :      7.933u      0.000s      4.748w      6 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      6 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      2.083u      0.050s      1.287w      6 calls
+HF: Form core H                     :      0.000u      0.000s      0.002w      6 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      6 calls
+HF: Guess                           :      0.383u      0.000s      0.240w      6 calls
+| SAD Guess                         :      0.367u      0.000s      0.225w      2 calls
+HF: Form G                          :      0.450u      0.017s      0.259w     73 calls
+| JK: D                             :      0.000u      0.000s      0.001w     73 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.004w     73 calls
+| JK: JK                            :      0.417u      0.017s      0.246w     73 calls
+| | PK computes JK                  :      0.417u      0.017s      0.246w     73 calls
+| JK: AO2USO                        :      0.017u      0.000s      0.005w     73 calls
+HF: Form F                          :      0.000u      0.000s      0.001w     73 calls
+HF: Form D                          :      0.000u      0.000s      0.001w     73 calls
+HF: DIIS                            :      0.033u      0.000s      0.028w     71 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.003w     67 calls
+| DIISManager::extrapolate          :      0.000u      0.000s      0.006w     67 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.002w     67 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.002w     67 calls
+| | New vector                      :      0.000u      0.000s      0.002w     67 calls
+HF: Form C                          :      0.033u      0.000s      0.014w     71 calls
+Grad: V T Perturb                   :      0.083u      0.017s      0.083w      6 calls
+Grad: S                             :      0.017u      0.000s      0.003w      6 calls
+Grad: JK                            :      7.933u      0.000s      4.748w      6 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      6 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 09:42:07 2021
+Timers Off: Tue Jan  5 09:42:15 2021
+
+Wall Time:        8.00 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      2.117u      0.033s      1.283w      6 calls
+HF: Form core H                     :      0.000u      0.000s      0.002w      6 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      6 calls
+HF: Guess                           :      0.417u      0.000s      0.242w      6 calls
+SAD Guess                           :      0.400u      0.000s      0.226w      2 calls
+HF: Form G                          :      0.367u      0.017s      0.259w     73 calls
+JK: D                               :      0.000u      0.000s      0.001w     73 calls
+JK: USO2AO                          :      0.000u      0.000s      0.004w     73 calls
+JK: JK                              :      0.367u      0.017s      0.246w     73 calls
+PK computes JK                      :      0.367u      0.017s      0.246w     73 calls
+JK: AO2USO                          :      0.000u      0.000s      0.005w     73 calls
+HF: Form F                          :      0.000u      0.000s      0.001w     73 calls
+HF: Form D                          :      0.017u      0.000s      0.001w     73 calls
+HF: DIIS                            :      0.017u      0.000s      0.028w     71 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.003w     67 calls
+DIISManager::extrapolate            :      0.000u      0.000s      0.006w     67 calls
+bMatrix setup                       :      0.000u      0.000s      0.002w     67 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.002w     67 calls
+New vector                          :      0.000u      0.000s      0.002w     67 calls
+HF: Form C                          :      0.000u      0.000s      0.014w     71 calls
+Grad: V T Perturb                   :      0.133u      0.000s      0.087w      6 calls
+Grad: S                             :      0.017u      0.000s      0.003w      6 calls
+Grad: JK                            :      7.933u      0.000s      4.758w      6 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      6 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      2.117u      0.033s      1.283w      6 calls
+HF: Form core H                     :      0.000u      0.000s      0.002w      6 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      6 calls
+HF: Guess                           :      0.417u      0.000s      0.242w      6 calls
+| SAD Guess                         :      0.400u      0.000s      0.226w      2 calls
+HF: Form G                          :      0.367u      0.017s      0.259w     73 calls
+| JK: D                             :      0.000u      0.000s      0.001w     73 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.004w     73 calls
+| JK: JK                            :      0.367u      0.017s      0.246w     73 calls
+| | PK computes JK                  :      0.367u      0.017s      0.246w     73 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.005w     73 calls
+HF: Form F                          :      0.000u      0.000s      0.001w     73 calls
+HF: Form D                          :      0.017u      0.000s      0.001w     73 calls
+HF: DIIS                            :      0.017u      0.000s      0.028w     71 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.003w     67 calls
+| DIISManager::extrapolate          :      0.000u      0.000s      0.006w     67 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.002w     67 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.002w     67 calls
+| | New vector                      :      0.000u      0.000s      0.002w     67 calls
+HF: Form C                          :      0.000u      0.000s      0.014w     71 calls
+Grad: V T Perturb                   :      0.133u      0.000s      0.087w      6 calls
+Grad: S                             :      0.017u      0.000s      0.003w      6 calls
+Grad: JK                            :      7.933u      0.000s      4.758w      6 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      6 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 09:45:53 2021
+Timers Off: Tue Jan  5 09:45:53 2021
+
+Wall Time:        0.21 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 09:47:53 2021
+Timers Off: Tue Jan  5 09:47:54 2021
+
+Wall Time:        0.21 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 09:48:10 2021
+Timers Off: Tue Jan  5 09:48:30 2021
+
+Wall Time:       19.47 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      5.233u      0.117s      3.184w     15 calls
+HF: Form core H                     :      0.000u      0.000s      0.005w     15 calls
+HF: Form S/X                        :      0.000u      0.000s      0.002w     15 calls
+HF: Guess                           :      0.983u      0.017s      0.602w     15 calls
+SAD Guess                           :      0.917u      0.000s      0.564w      5 calls
+HF: Form G                          :      1.033u      0.017s      0.651w    175 calls
+JK: D                               :      0.000u      0.000s      0.001w    175 calls
+JK: USO2AO                          :      0.000u      0.000s      0.011w    175 calls
+JK: JK                              :      0.983u      0.017s      0.620w    175 calls
+PK computes JK                      :      0.983u      0.017s      0.620w    175 calls
+JK: AO2USO                          :      0.017u      0.000s      0.013w    175 calls
+HF: Form F                          :      0.000u      0.000s      0.001w    175 calls
+HF: Form D                          :      0.000u      0.000s      0.002w    175 calls
+HF: DIIS                            :      0.133u      0.000s      0.068w    170 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.008w    160 calls
+DIISManager::extrapolate            :      0.050u      0.000s      0.014w    160 calls
+bMatrix setup                       :      0.017u      0.000s      0.005w    160 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.004w    160 calls
+New vector                          :      0.033u      0.000s      0.004w    160 calls
+HF: Form C                          :      0.033u      0.000s      0.032w    170 calls
+Grad: V T Perturb                   :      0.283u      0.083s      0.212w     15 calls
+Grad: S                             :      0.050u      0.000s      0.009w     15 calls
+Grad: JK                            :     19.650u      0.000s     11.819w     15 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     15 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      5.233u      0.117s      3.184w     15 calls
+HF: Form core H                     :      0.000u      0.000s      0.005w     15 calls
+HF: Form S/X                        :      0.000u      0.000s      0.002w     15 calls
+HF: Guess                           :      0.983u      0.017s      0.602w     15 calls
+| SAD Guess                         :      0.917u      0.000s      0.564w      5 calls
+HF: Form G                          :      1.033u      0.017s      0.651w    175 calls
+| JK: D                             :      0.000u      0.000s      0.001w    175 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.011w    175 calls
+| JK: JK                            :      0.983u      0.017s      0.620w    175 calls
+| | PK computes JK                  :      0.983u      0.017s      0.620w    175 calls
+| JK: AO2USO                        :      0.017u      0.000s      0.013w    175 calls
+HF: Form F                          :      0.000u      0.000s      0.001w    175 calls
+HF: Form D                          :      0.000u      0.000s      0.002w    175 calls
+HF: DIIS                            :      0.133u      0.000s      0.068w    170 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.008w    160 calls
+| DIISManager::extrapolate          :      0.050u      0.000s      0.014w    160 calls
+| | bMatrix setup                   :      0.017u      0.000s      0.005w    160 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.004w    160 calls
+| | New vector                      :      0.033u      0.000s      0.004w    160 calls
+HF: Form C                          :      0.033u      0.000s      0.032w    170 calls
+Grad: V T Perturb                   :      0.283u      0.083s      0.212w     15 calls
+Grad: S                             :      0.050u      0.000s      0.009w     15 calls
+Grad: JK                            :     19.650u      0.000s     11.819w     15 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     15 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 09:49:04 2021
+Timers Off: Tue Jan  5 09:49:23 2021
+
+Wall Time:       19.51 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      5.200u      0.067s      3.203w     15 calls
+HF: Form core H                     :      0.050u      0.017s      0.005w     15 calls
+HF: Form S/X                        :      0.000u      0.000s      0.002w     15 calls
+HF: Guess                           :      0.983u      0.017s      0.602w     15 calls
+SAD Guess                           :      0.900u      0.017s      0.563w      5 calls
+HF: Form G                          :      0.950u      0.000s      0.634w    175 calls
+JK: D                               :      0.000u      0.000s      0.001w    175 calls
+JK: USO2AO                          :      0.033u      0.000s      0.011w    175 calls
+JK: JK                              :      0.883u      0.000s      0.603w    175 calls
+PK computes JK                      :      0.883u      0.000s      0.603w    175 calls
+JK: AO2USO                          :      0.017u      0.000s      0.013w    175 calls
+HF: Form F                          :      0.000u      0.000s      0.001w    175 calls
+HF: Form D                          :      0.000u      0.000s      0.002w    175 calls
+HF: DIIS                            :      0.083u      0.000s      0.068w    170 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.008w    160 calls
+DIISManager::extrapolate            :      0.017u      0.000s      0.014w    160 calls
+bMatrix setup                       :      0.000u      0.000s      0.005w    160 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.004w    160 calls
+New vector                          :      0.017u      0.000s      0.004w    160 calls
+HF: Form C                          :      0.117u      0.000s      0.032w    170 calls
+Grad: V T Perturb                   :      0.300u      0.083s      0.211w     15 calls
+Grad: S                             :      0.017u      0.000s      0.010w     15 calls
+Grad: JK                            :     19.717u      0.000s     11.849w     15 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     15 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      5.200u      0.067s      3.203w     15 calls
+HF: Form core H                     :      0.050u      0.017s      0.005w     15 calls
+HF: Form S/X                        :      0.000u      0.000s      0.002w     15 calls
+HF: Guess                           :      0.983u      0.017s      0.602w     15 calls
+| SAD Guess                         :      0.900u      0.017s      0.563w      5 calls
+HF: Form G                          :      0.950u      0.000s      0.634w    175 calls
+| JK: D                             :      0.000u      0.000s      0.001w    175 calls
+| JK: USO2AO                        :      0.033u      0.000s      0.011w    175 calls
+| JK: JK                            :      0.883u      0.000s      0.603w    175 calls
+| | PK computes JK                  :      0.883u      0.000s      0.603w    175 calls
+| JK: AO2USO                        :      0.017u      0.000s      0.013w    175 calls
+HF: Form F                          :      0.000u      0.000s      0.001w    175 calls
+HF: Form D                          :      0.000u      0.000s      0.002w    175 calls
+HF: DIIS                            :      0.083u      0.000s      0.068w    170 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.008w    160 calls
+| DIISManager::extrapolate          :      0.017u      0.000s      0.014w    160 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.005w    160 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.004w    160 calls
+| | New vector                      :      0.017u      0.000s      0.004w    160 calls
+HF: Form C                          :      0.117u      0.000s      0.032w    170 calls
+Grad: V T Perturb                   :      0.300u      0.083s      0.211w     15 calls
+Grad: S                             :      0.017u      0.000s      0.010w     15 calls
+Grad: JK                            :     19.717u      0.000s     11.849w     15 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     15 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 09:49:48 2021
+Timers Off: Tue Jan  5 09:50:07 2021
+
+Wall Time:       19.51 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      5.183u      0.083s      3.190w     15 calls
+HF: Form core H                     :      0.033u      0.000s      0.005w     15 calls
+HF: Form S/X                        :      0.000u      0.000s      0.002w     15 calls
+HF: Guess                           :      1.000u      0.017s      0.601w     15 calls
+SAD Guess                           :      0.950u      0.000s      0.563w      5 calls
+HF: Form G                          :      1.117u      0.000s      0.647w    175 calls
+JK: D                               :      0.000u      0.000s      0.001w    175 calls
+JK: USO2AO                          :      0.017u      0.000s      0.010w    175 calls
+JK: JK                              :      1.100u      0.000s      0.616w    175 calls
+PK computes JK                      :      1.100u      0.000s      0.616w    175 calls
+JK: AO2USO                          :      0.000u      0.000s      0.013w    175 calls
+HF: Form F                          :      0.017u      0.000s      0.001w    175 calls
+HF: Form D                          :      0.000u      0.000s      0.002w    175 calls
+HF: DIIS                            :      0.100u      0.000s      0.068w    170 calls
+DIISManager::add_entry              :      0.017u      0.000s      0.008w    160 calls
+DIISManager::extrapolate            :      0.000u      0.000s      0.014w    160 calls
+bMatrix setup                       :      0.000u      0.000s      0.005w    160 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.004w    160 calls
+New vector                          :      0.000u      0.000s      0.004w    160 calls
+HF: Form C                          :      0.033u      0.000s      0.032w    170 calls
+Grad: V T Perturb                   :      0.267u      0.083s      0.212w     15 calls
+Grad: S                             :      0.033u      0.000s      0.009w     15 calls
+Grad: JK                            :     19.667u      0.000s     11.836w     15 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     15 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      5.183u      0.083s      3.190w     15 calls
+HF: Form core H                     :      0.033u      0.000s      0.005w     15 calls
+HF: Form S/X                        :      0.000u      0.000s      0.002w     15 calls
+HF: Guess                           :      1.000u      0.017s      0.601w     15 calls
+| SAD Guess                         :      0.950u      0.000s      0.563w      5 calls
+HF: Form G                          :      1.117u      0.000s      0.647w    175 calls
+| JK: D                             :      0.000u      0.000s      0.001w    175 calls
+| JK: USO2AO                        :      0.017u      0.000s      0.010w    175 calls
+| JK: JK                            :      1.100u      0.000s      0.616w    175 calls
+| | PK computes JK                  :      1.100u      0.000s      0.616w    175 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.013w    175 calls
+HF: Form F                          :      0.017u      0.000s      0.001w    175 calls
+HF: Form D                          :      0.000u      0.000s      0.002w    175 calls
+HF: DIIS                            :      0.100u      0.000s      0.068w    170 calls
+| DIISManager::add_entry            :      0.017u      0.000s      0.008w    160 calls
+| DIISManager::extrapolate          :      0.000u      0.000s      0.014w    160 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.005w    160 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.004w    160 calls
+| | New vector                      :      0.000u      0.000s      0.004w    160 calls
+HF: Form C                          :      0.033u      0.000s      0.032w    170 calls
+Grad: V T Perturb                   :      0.267u      0.083s      0.212w     15 calls
+Grad: S                             :      0.033u      0.000s      0.009w     15 calls
+Grad: JK                            :     19.667u      0.000s     11.836w     15 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     15 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 09:50:32 2021
+Timers Off: Tue Jan  5 09:50:51 2021
+
+Wall Time:       19.50 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      5.217u      0.083s      3.178w     15 calls
+HF: Form core H                     :      0.000u      0.000s      0.005w     15 calls
+HF: Form S/X                        :      0.000u      0.000s      0.002w     15 calls
+HF: Guess                           :      1.000u      0.000s      0.602w     15 calls
+SAD Guess                           :      0.917u      0.000s      0.563w      5 calls
+HF: Form G                          :      1.250u      0.033s      0.676w    175 calls
+JK: D                               :      0.000u      0.000s      0.001w    175 calls
+JK: USO2AO                          :      0.033u      0.000s      0.010w    175 calls
+JK: JK                              :      1.183u      0.033s      0.646w    175 calls
+PK computes JK                      :      1.183u      0.033s      0.646w    175 calls
+JK: AO2USO                          :      0.000u      0.000s      0.012w    175 calls
+HF: Form F                          :      0.000u      0.000s      0.001w    175 calls
+HF: Form D                          :      0.000u      0.000s      0.002w    175 calls
+HF: DIIS                            :      0.117u      0.000s      0.067w    170 calls
+DIISManager::add_entry              :      0.033u      0.000s      0.008w    160 calls
+DIISManager::extrapolate            :      0.017u      0.000s      0.014w    160 calls
+bMatrix setup                       :      0.017u      0.000s      0.005w    160 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.004w    160 calls
+New vector                          :      0.000u      0.000s      0.004w    160 calls
+HF: Form C                          :      0.000u      0.000s      0.032w    170 calls
+Grad: V T Perturb                   :      0.317u      0.050s      0.212w     15 calls
+Grad: S                             :      0.067u      0.000s      0.010w     15 calls
+Grad: JK                            :     19.683u      0.000s     11.821w     15 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     15 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      5.217u      0.083s      3.178w     15 calls
+HF: Form core H                     :      0.000u      0.000s      0.005w     15 calls
+HF: Form S/X                        :      0.000u      0.000s      0.002w     15 calls
+HF: Guess                           :      1.000u      0.000s      0.602w     15 calls
+| SAD Guess                         :      0.917u      0.000s      0.563w      5 calls
+HF: Form G                          :      1.250u      0.033s      0.676w    175 calls
+| JK: D                             :      0.000u      0.000s      0.001w    175 calls
+| JK: USO2AO                        :      0.033u      0.000s      0.010w    175 calls
+| JK: JK                            :      1.183u      0.033s      0.646w    175 calls
+| | PK computes JK                  :      1.183u      0.033s      0.646w    175 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.012w    175 calls
+HF: Form F                          :      0.000u      0.000s      0.001w    175 calls
+HF: Form D                          :      0.000u      0.000s      0.002w    175 calls
+HF: DIIS                            :      0.117u      0.000s      0.067w    170 calls
+| DIISManager::add_entry            :      0.033u      0.000s      0.008w    160 calls
+| DIISManager::extrapolate          :      0.017u      0.000s      0.014w    160 calls
+| | bMatrix setup                   :      0.017u      0.000s      0.005w    160 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.004w    160 calls
+| | New vector                      :      0.000u      0.000s      0.004w    160 calls
+HF: Form C                          :      0.000u      0.000s      0.032w    170 calls
+Grad: V T Perturb                   :      0.317u      0.050s      0.212w     15 calls
+Grad: S                             :      0.067u      0.000s      0.010w     15 calls
+Grad: JK                            :     19.683u      0.000s     11.821w     15 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     15 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 09:54:51 2021
+Timers Off: Tue Jan  5 09:55:10 2021
+
+Wall Time:       19.54 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      5.267u      0.083s      3.215w     15 calls
+HF: Form core H                     :      0.000u      0.000s      0.005w     15 calls
+HF: Form S/X                        :      0.000u      0.000s      0.002w     15 calls
+HF: Guess                           :      1.000u      0.017s      0.603w     15 calls
+SAD Guess                           :      0.917u      0.017s      0.564w      5 calls
+HF: Form G                          :      1.033u      0.033s      0.645w    175 calls
+JK: D                               :      0.000u      0.000s      0.001w    175 calls
+JK: USO2AO                          :      0.017u      0.000s      0.010w    175 calls
+JK: JK                              :      1.000u      0.033s      0.614w    175 calls
+PK computes JK                      :      0.983u      0.033s      0.614w    175 calls
+JK: AO2USO                          :      0.017u      0.000s      0.013w    175 calls
+HF: Form F                          :      0.000u      0.000s      0.001w    175 calls
+HF: Form D                          :      0.000u      0.000s      0.002w    175 calls
+HF: DIIS                            :      0.133u      0.000s      0.068w    170 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.008w    160 calls
+DIISManager::extrapolate            :      0.017u      0.000s      0.014w    160 calls
+bMatrix setup                       :      0.000u      0.000s      0.005w    160 calls
+bMatrix pseudoinverse               :      0.017u      0.000s      0.004w    160 calls
+New vector                          :      0.000u      0.000s      0.004w    160 calls
+HF: Form C                          :      0.033u      0.000s      0.032w    170 calls
+Grad: V T Perturb                   :      0.317u      0.017s      0.213w     15 calls
+Grad: S                             :      0.017u      0.000s      0.009w     15 calls
+Grad: JK                            :     19.750u      0.050s     11.858w     15 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     15 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      5.267u      0.083s      3.215w     15 calls
+HF: Form core H                     :      0.000u      0.000s      0.005w     15 calls
+HF: Form S/X                        :      0.000u      0.000s      0.002w     15 calls
+HF: Guess                           :      1.000u      0.017s      0.603w     15 calls
+| SAD Guess                         :      0.917u      0.017s      0.564w      5 calls
+HF: Form G                          :      1.033u      0.033s      0.645w    175 calls
+| JK: D                             :      0.000u      0.000s      0.001w    175 calls
+| JK: USO2AO                        :      0.017u      0.000s      0.010w    175 calls
+| JK: JK                            :      1.000u      0.033s      0.614w    175 calls
+| | PK computes JK                  :      0.983u      0.033s      0.614w    175 calls
+| JK: AO2USO                        :      0.017u      0.000s      0.013w    175 calls
+HF: Form F                          :      0.000u      0.000s      0.001w    175 calls
+HF: Form D                          :      0.000u      0.000s      0.002w    175 calls
+HF: DIIS                            :      0.133u      0.000s      0.068w    170 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.008w    160 calls
+| DIISManager::extrapolate          :      0.017u      0.000s      0.014w    160 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.005w    160 calls
+| | bMatrix pseudoinverse           :      0.017u      0.000s      0.004w    160 calls
+| | New vector                      :      0.000u      0.000s      0.004w    160 calls
+HF: Form C                          :      0.033u      0.000s      0.032w    170 calls
+Grad: V T Perturb                   :      0.317u      0.017s      0.213w     15 calls
+Grad: S                             :      0.017u      0.000s      0.009w     15 calls
+Grad: JK                            :     19.750u      0.050s     11.858w     15 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     15 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 09:56:11 2021
+Timers Off: Tue Jan  5 09:56:31 2021
+
+Wall Time:       19.58 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      5.167u      0.067s      3.191w     15 calls
+HF: Form core H                     :      0.017u      0.000s      0.006w     15 calls
+HF: Form S/X                        :      0.000u      0.000s      0.002w     15 calls
+HF: Guess                           :      0.983u      0.000s      0.602w     15 calls
+SAD Guess                           :      0.917u      0.000s      0.563w      5 calls
+HF: Form G                          :      1.150u      0.033s      0.675w    175 calls
+JK: D                               :      0.000u      0.000s      0.001w    175 calls
+JK: USO2AO                          :      0.033u      0.000s      0.010w    175 calls
+JK: JK                              :      1.083u      0.033s      0.645w    175 calls
+PK computes JK                      :      1.083u      0.033s      0.644w    175 calls
+JK: AO2USO                          :      0.033u      0.000s      0.013w    175 calls
+HF: Form F                          :      0.017u      0.000s      0.001w    175 calls
+HF: Form D                          :      0.000u      0.000s      0.002w    175 calls
+HF: DIIS                            :      0.083u      0.000s      0.067w    170 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.007w    160 calls
+DIISManager::extrapolate            :      0.033u      0.000s      0.014w    160 calls
+bMatrix setup                       :      0.033u      0.000s      0.005w    160 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.004w    160 calls
+New vector                          :      0.000u      0.000s      0.004w    160 calls
+HF: Form C                          :      0.033u      0.000s      0.032w    170 calls
+Grad: V T Perturb                   :      0.300u      0.100s      0.209w     15 calls
+Grad: S                             :      0.017u      0.000s      0.009w     15 calls
+Grad: JK                            :     19.833u      0.000s     11.892w     15 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     15 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      5.167u      0.067s      3.191w     15 calls
+HF: Form core H                     :      0.017u      0.000s      0.006w     15 calls
+HF: Form S/X                        :      0.000u      0.000s      0.002w     15 calls
+HF: Guess                           :      0.983u      0.000s      0.602w     15 calls
+| SAD Guess                         :      0.917u      0.000s      0.563w      5 calls
+HF: Form G                          :      1.150u      0.033s      0.675w    175 calls
+| JK: D                             :      0.000u      0.000s      0.001w    175 calls
+| JK: USO2AO                        :      0.033u      0.000s      0.010w    175 calls
+| JK: JK                            :      1.083u      0.033s      0.645w    175 calls
+| | PK computes JK                  :      1.083u      0.033s      0.644w    175 calls
+| JK: AO2USO                        :      0.033u      0.000s      0.013w    175 calls
+HF: Form F                          :      0.017u      0.000s      0.001w    175 calls
+HF: Form D                          :      0.000u      0.000s      0.002w    175 calls
+HF: DIIS                            :      0.083u      0.000s      0.067w    170 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.007w    160 calls
+| DIISManager::extrapolate          :      0.033u      0.000s      0.014w    160 calls
+| | bMatrix setup                   :      0.033u      0.000s      0.005w    160 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.004w    160 calls
+| | New vector                      :      0.000u      0.000s      0.004w    160 calls
+HF: Form C                          :      0.033u      0.000s      0.032w    170 calls
+Grad: V T Perturb                   :      0.300u      0.100s      0.209w     15 calls
+Grad: S                             :      0.017u      0.000s      0.009w     15 calls
+Grad: JK                            :     19.833u      0.000s     11.892w     15 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     15 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 09:57:00 2021
+Timers Off: Tue Jan  5 10:00:11 2021
+
+Wall Time:      191.55 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     50.567u      0.700s     30.723w    145 calls
+HF: Form core H                     :      0.083u      0.017s      0.051w    145 calls
+HF: Form S/X                        :      0.033u      0.000s      0.022w    145 calls
+HF: Guess                           :      9.967u      0.033s      6.032w    145 calls
+SAD Guess                           :      9.350u      0.000s      5.648w     50 calls
+HF: Form G                          :     10.333u      0.233s      6.271w   1683 calls
+JK: D                               :      0.017u      0.000s      0.013w   1683 calls
+JK: USO2AO                          :      0.133u      0.000s      0.104w   1683 calls
+JK: JK                              :      9.817u      0.233s      5.968w   1683 calls
+PK computes JK                      :      9.817u      0.233s      5.966w   1683 calls
+JK: AO2USO                          :      0.217u      0.000s      0.125w   1683 calls
+HF: Form F                          :      0.017u      0.000s      0.014w   1683 calls
+HF: Form D                          :      0.000u      0.000s      0.016w   1683 calls
+HF: DIIS                            :      1.000u      0.000s      0.666w   1633 calls
+DIISManager::add_entry              :      0.033u      0.000s      0.079w   1538 calls
+DIISManager::extrapolate            :      0.200u      0.000s      0.138w   1538 calls
+bMatrix setup                       :      0.100u      0.000s      0.053w   1538 calls
+bMatrix pseudoinverse               :      0.067u      0.000s      0.040w   1538 calls
+New vector                          :      0.017u      0.000s      0.042w   1538 calls
+HF: Form C                          :      0.467u      0.000s      0.314w   1633 calls
+Grad: V T Perturb                   :      2.850u      0.217s      1.937w    145 calls
+Grad: S                             :      0.183u      0.000s      0.098w    145 calls
+Grad: JK                            :    191.150u      0.000s    119.478w    145 calls
+Grad: XC                            :      0.000u      0.000s      0.000w    145 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     50.567u      0.700s     30.723w    145 calls
+HF: Form core H                     :      0.083u      0.017s      0.051w    145 calls
+HF: Form S/X                        :      0.033u      0.000s      0.022w    145 calls
+HF: Guess                           :      9.967u      0.033s      6.032w    145 calls
+| SAD Guess                         :      9.350u      0.000s      5.648w     50 calls
+HF: Form G                          :     10.333u      0.233s      6.271w   1683 calls
+| JK: D                             :      0.017u      0.000s      0.013w   1683 calls
+| JK: USO2AO                        :      0.133u      0.000s      0.104w   1683 calls
+| JK: JK                            :      9.817u      0.233s      5.968w   1683 calls
+| | PK computes JK                  :      9.817u      0.233s      5.966w   1683 calls
+| JK: AO2USO                        :      0.217u      0.000s      0.125w   1683 calls
+HF: Form F                          :      0.017u      0.000s      0.014w   1683 calls
+HF: Form D                          :      0.000u      0.000s      0.016w   1683 calls
+HF: DIIS                            :      1.000u      0.000s      0.666w   1633 calls
+| DIISManager::add_entry            :      0.033u      0.000s      0.079w   1538 calls
+| DIISManager::extrapolate          :      0.200u      0.000s      0.138w   1538 calls
+| | bMatrix setup                   :      0.100u      0.000s      0.053w   1538 calls
+| | bMatrix pseudoinverse           :      0.067u      0.000s      0.040w   1538 calls
+| | New vector                      :      0.017u      0.000s      0.042w   1538 calls
+HF: Form C                          :      0.467u      0.000s      0.314w   1633 calls
+Grad: V T Perturb                   :      2.850u      0.217s      1.937w    145 calls
+Grad: S                             :      0.183u      0.000s      0.098w    145 calls
+Grad: JK                            :    191.150u      0.000s    119.478w    145 calls
+Grad: XC                            :      0.000u      0.000s      0.000w    145 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 10:04:41 2021
+Timers Off: Tue Jan  5 10:13:18 2021
+
+Wall Time:      517.17 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :    139.483u      2.100s     84.878w    407 calls
+HF: Form core H                     :      0.250u      0.100s      0.371w    407 calls
+HF: Form S/X                        :      0.133u      0.000s      0.070w    407 calls
+HF: Guess                           :     19.967u      0.033s     12.012w    407 calls
+SAD Guess                           :     18.650u      0.033s     11.214w    100 calls
+HF: Form G                          :     29.933u      0.350s     18.393w   5016 calls
+JK: D                               :      0.033u      0.000s      0.039w   5016 calls
+JK: USO2AO                          :      0.550u      0.000s      0.310w   5016 calls
+JK: JK                              :     28.483u      0.350s     17.470w   5016 calls
+PK computes JK                      :     28.483u      0.350s     17.465w   5016 calls
+JK: AO2USO                          :      0.533u      0.000s      0.380w   5016 calls
+HF: Form F                          :      0.050u      0.000s      0.041w   5016 calls
+HF: Form D                          :      0.067u      0.000s      0.052w   5016 calls
+HF: DIIS                            :      3.300u      0.167s      2.050w   4916 calls
+DIISManager::add_entry              :      0.383u      0.017s      0.247w   4609 calls
+DIISManager::extrapolate            :      0.633u      0.083s      0.451w   4609 calls
+bMatrix setup                       :      0.267u      0.050s      0.173w   4609 calls
+bMatrix pseudoinverse               :      0.167u      0.000s      0.127w   4609 calls
+New vector                          :      0.183u      0.033s      0.137w   4609 calls
+HF: Form C                          :      1.767u      0.067s      0.947w   4916 calls
+Grad: V T Perturb                   :      7.917u      0.183s      4.949w    407 calls
+Grad: S                             :      0.450u      0.000s      0.256w    407 calls
+Grad: JK                            :    532.333u      0.017s    319.450w    407 calls
+Grad: XC                            :      0.000u      0.000s      0.000w    407 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :    139.483u      2.100s     84.878w    407 calls
+HF: Form core H                     :      0.250u      0.100s      0.371w    407 calls
+HF: Form S/X                        :      0.133u      0.000s      0.070w    407 calls
+HF: Guess                           :     19.967u      0.033s     12.012w    407 calls
+| SAD Guess                         :     18.650u      0.033s     11.214w    100 calls
+HF: Form G                          :     29.933u      0.350s     18.393w   5016 calls
+| JK: D                             :      0.033u      0.000s      0.039w   5016 calls
+| JK: USO2AO                        :      0.550u      0.000s      0.310w   5016 calls
+| JK: JK                            :     28.483u      0.350s     17.470w   5016 calls
+| | PK computes JK                  :     28.483u      0.350s     17.465w   5016 calls
+| JK: AO2USO                        :      0.533u      0.000s      0.380w   5016 calls
+HF: Form F                          :      0.050u      0.000s      0.041w   5016 calls
+HF: Form D                          :      0.067u      0.000s      0.052w   5016 calls
+HF: DIIS                            :      3.300u      0.167s      2.050w   4916 calls
+| DIISManager::add_entry            :      0.383u      0.017s      0.247w   4609 calls
+| DIISManager::extrapolate          :      0.633u      0.083s      0.451w   4609 calls
+| | bMatrix setup                   :      0.267u      0.050s      0.173w   4609 calls
+| | bMatrix pseudoinverse           :      0.167u      0.000s      0.127w   4609 calls
+| | New vector                      :      0.183u      0.033s      0.137w   4609 calls
+HF: Form C                          :      1.767u      0.067s      0.947w   4916 calls
+Grad: V T Perturb                   :      7.917u      0.183s      4.949w    407 calls
+Grad: S                             :      0.450u      0.000s      0.256w    407 calls
+Grad: JK                            :    532.333u      0.017s    319.450w    407 calls
+Grad: XC                            :      0.000u      0.000s      0.000w    407 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 11:16:03 2021
+Timers Off: Tue Jan  5 11:26:47 2021
+
+Wall Time:      643.97 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :    174.600u      3.233s    106.817w    509 calls
+HF: Form core H                     :      0.333u      0.000s      0.551w    509 calls
+HF: Form S/X                        :      0.200u      0.000s      0.097w    509 calls
+HF: Guess                           :     20.067u      0.117s     12.051w    509 calls
+SAD Guess                           :     18.600u      0.033s     11.215w    100 calls
+HF: Form G                          :     38.350u      0.667s     22.597w   6120 calls
+JK: D                               :      0.133u      0.000s      0.048w   6120 calls
+JK: USO2AO                          :      0.550u      0.000s      0.380w   6120 calls
+JK: JK                              :     36.600u      0.667s     21.448w   6120 calls
+PK computes JK                      :     36.583u      0.667s     21.441w   6120 calls
+JK: AO2USO                          :      0.717u      0.000s      0.476w   6120 calls
+HF: Form F                          :      0.117u      0.000s      0.053w   6120 calls
+HF: Form D                          :      0.033u      0.000s      0.064w   6120 calls
+HF: DIIS                            :      3.683u      0.000s      2.533w   6020 calls
+DIISManager::add_entry              :      0.417u      0.000s      0.315w   5611 calls
+DIISManager::extrapolate            :      0.883u      0.000s      0.557w   5611 calls
+bMatrix setup                       :      0.383u      0.000s      0.213w   5611 calls
+bMatrix pseudoinverse               :      0.167u      0.000s      0.160w   5611 calls
+New vector                          :      0.267u      0.000s      0.167w   5611 calls
+HF: Form C                          :      1.717u      0.000s      1.173w   6020 calls
+Grad: V T Perturb                   :     10.083u      1.717s      7.056w    509 calls
+Grad: S                             :      0.500u      0.000s      0.321w    509 calls
+Grad: JK                            :    663.817u      0.000s    398.216w    509 calls
+Grad: XC                            :      0.000u      0.000s      0.000w    509 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :    174.600u      3.233s    106.817w    509 calls
+HF: Form core H                     :      0.333u      0.000s      0.551w    509 calls
+HF: Form S/X                        :      0.200u      0.000s      0.097w    509 calls
+HF: Guess                           :     20.067u      0.117s     12.051w    509 calls
+| SAD Guess                         :     18.600u      0.033s     11.215w    100 calls
+HF: Form G                          :     38.350u      0.667s     22.597w   6120 calls
+| JK: D                             :      0.133u      0.000s      0.048w   6120 calls
+| JK: USO2AO                        :      0.550u      0.000s      0.380w   6120 calls
+| JK: JK                            :     36.600u      0.667s     21.448w   6120 calls
+| | PK computes JK                  :     36.583u      0.667s     21.441w   6120 calls
+| JK: AO2USO                        :      0.717u      0.000s      0.476w   6120 calls
+HF: Form F                          :      0.117u      0.000s      0.053w   6120 calls
+HF: Form D                          :      0.033u      0.000s      0.064w   6120 calls
+HF: DIIS                            :      3.683u      0.000s      2.533w   6020 calls
+| DIISManager::add_entry            :      0.417u      0.000s      0.315w   5611 calls
+| DIISManager::extrapolate          :      0.883u      0.000s      0.557w   5611 calls
+| | bMatrix setup                   :      0.383u      0.000s      0.213w   5611 calls
+| | bMatrix pseudoinverse           :      0.167u      0.000s      0.160w   5611 calls
+| | New vector                      :      0.267u      0.000s      0.167w   5611 calls
+HF: Form C                          :      1.717u      0.000s      1.173w   6020 calls
+Grad: V T Perturb                   :     10.083u      1.717s      7.056w    509 calls
+Grad: S                             :      0.500u      0.000s      0.321w    509 calls
+Grad: JK                            :    663.817u      0.000s    398.216w    509 calls
+Grad: XC                            :      0.000u      0.000s      0.000w    509 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 12:43:23 2021
+Timers Off: Tue Jan  5 12:44:21 2021
+
+Wall Time:       57.49 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     34.350u      0.083s     20.612w    100 calls
+HF: Form core H                     :      0.033u      0.000s      0.043w    100 calls
+HF: Form S/X                        :      0.000u      0.000s      0.016w    100 calls
+HF: Guess                           :     19.733u      0.117s     11.870w    100 calls
+SAD Guess                           :     18.550u      0.067s     11.121w    100 calls
+HF: Form G                          :      7.450u      0.100s      4.784w   1293 calls
+JK: D                               :      0.033u      0.000s      0.010w   1293 calls
+JK: USO2AO                          :      0.083u      0.000s      0.084w   1293 calls
+JK: JK                              :      7.150u      0.083s      4.539w   1293 calls
+PK computes JK                      :      7.150u      0.083s      4.537w   1293 calls
+JK: AO2USO                          :      0.167u      0.017s      0.100w   1293 calls
+HF: Form F                          :      0.050u      0.000s      0.011w   1293 calls
+HF: Form D                          :      0.033u      0.000s      0.013w   1293 calls
+HF: DIIS                            :      1.083u      0.033s      0.541w   1193 calls
+DIISManager::add_entry              :      0.100u      0.017s      0.065w   1193 calls
+DIISManager::extrapolate            :      0.300u      0.000s      0.128w   1193 calls
+bMatrix setup                       :      0.150u      0.000s      0.051w   1193 calls
+bMatrix pseudoinverse               :      0.067u      0.000s      0.036w   1193 calls
+New vector                          :      0.083u      0.000s      0.037w   1193 calls
+HF: Form C                          :      0.417u      0.000s      0.228w   1193 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     34.350u      0.083s     20.612w    100 calls
+HF: Form core H                     :      0.033u      0.000s      0.043w    100 calls
+HF: Form S/X                        :      0.000u      0.000s      0.016w    100 calls
+HF: Guess                           :     19.733u      0.117s     11.870w    100 calls
+| SAD Guess                         :     18.550u      0.067s     11.121w    100 calls
+HF: Form G                          :      7.450u      0.100s      4.784w   1293 calls
+| JK: D                             :      0.033u      0.000s      0.010w   1293 calls
+| JK: USO2AO                        :      0.083u      0.000s      0.084w   1293 calls
+| JK: JK                            :      7.150u      0.083s      4.539w   1293 calls
+| | PK computes JK                  :      7.150u      0.083s      4.537w   1293 calls
+| JK: AO2USO                        :      0.167u      0.017s      0.100w   1293 calls
+HF: Form F                          :      0.050u      0.000s      0.011w   1293 calls
+HF: Form D                          :      0.033u      0.000s      0.013w   1293 calls
+HF: DIIS                            :      1.083u      0.033s      0.541w   1193 calls
+| DIISManager::add_entry            :      0.100u      0.017s      0.065w   1193 calls
+| DIISManager::extrapolate          :      0.300u      0.000s      0.128w   1193 calls
+| | bMatrix setup                   :      0.150u      0.000s      0.051w   1193 calls
+| | bMatrix pseudoinverse           :      0.067u      0.000s      0.036w   1193 calls
+| | New vector                      :      0.083u      0.000s      0.037w   1193 calls
+HF: Form C                          :      0.417u      0.000s      0.228w   1193 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 12:46:13 2021
+Timers Off: Tue Jan  5 12:46:13 2021
+
+Wall Time:        0.25 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 12:48:10 2021
+Timers Off: Tue Jan  5 12:48:10 2021
+
+Wall Time:        0.23 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 12:48:25 2021
+Timers Off: Tue Jan  5 12:49:19 2021
+
+Wall Time:       53.89 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     14.833u      0.300s      9.036w     43 calls
+HF: Form core H                     :      0.050u      0.000s      0.047w     43 calls
+HF: Form S/X                        :      0.000u      0.000s      0.008w     43 calls
+HF: Guess                           :      0.200u      0.000s      0.120w     43 calls
+SAD Guess                           :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      3.517u      0.050s      2.147w    579 calls
+JK: D                               :      0.017u      0.000s      0.004w    579 calls
+JK: USO2AO                          :      0.033u      0.000s      0.035w    579 calls
+JK: JK                              :      3.383u      0.050s      2.041w    579 calls
+PK computes JK                      :      3.383u      0.050s      2.040w    579 calls
+JK: AO2USO                          :      0.050u      0.000s      0.045w    579 calls
+HF: Form F                          :      0.000u      0.000s      0.005w    579 calls
+HF: Form D                          :      0.033u      0.000s      0.006w    579 calls
+HF: DIIS                            :      0.350u      0.017s      0.240w    578 calls
+DIISManager::add_entry              :      0.017u      0.000s      0.029w    536 calls
+DIISManager::extrapolate            :      0.117u      0.017s      0.056w    536 calls
+bMatrix setup                       :      0.050u      0.017s      0.021w    536 calls
+bMatrix pseudoinverse               :      0.050u      0.000s      0.016w    536 calls
+New vector                          :      0.017u      0.000s      0.017w    536 calls
+HF: Form C                          :      0.200u      0.000s      0.112w    578 calls
+Grad: V T Perturb                   :      0.850u      0.167s      0.591w     43 calls
+Grad: S                             :      0.017u      0.000s      0.027w     43 calls
+Grad: JK                            :     56.250u      0.000s     33.779w     43 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     43 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     14.833u      0.300s      9.036w     43 calls
+HF: Form core H                     :      0.050u      0.000s      0.047w     43 calls
+HF: Form S/X                        :      0.000u      0.000s      0.008w     43 calls
+HF: Guess                           :      0.200u      0.000s      0.120w     43 calls
+| SAD Guess                         :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      3.517u      0.050s      2.147w    579 calls
+| JK: D                             :      0.017u      0.000s      0.004w    579 calls
+| JK: USO2AO                        :      0.033u      0.000s      0.035w    579 calls
+| JK: JK                            :      3.383u      0.050s      2.041w    579 calls
+| | PK computes JK                  :      3.383u      0.050s      2.040w    579 calls
+| JK: AO2USO                        :      0.050u      0.000s      0.045w    579 calls
+HF: Form F                          :      0.000u      0.000s      0.005w    579 calls
+HF: Form D                          :      0.033u      0.000s      0.006w    579 calls
+HF: DIIS                            :      0.350u      0.017s      0.240w    578 calls
+| DIISManager::add_entry            :      0.017u      0.000s      0.029w    536 calls
+| DIISManager::extrapolate          :      0.117u      0.017s      0.056w    536 calls
+| | bMatrix setup                   :      0.050u      0.017s      0.021w    536 calls
+| | bMatrix pseudoinverse           :      0.050u      0.000s      0.016w    536 calls
+| | New vector                      :      0.017u      0.000s      0.017w    536 calls
+HF: Form C                          :      0.200u      0.000s      0.112w    578 calls
+Grad: V T Perturb                   :      0.850u      0.167s      0.591w     43 calls
+Grad: S                             :      0.017u      0.000s      0.027w     43 calls
+Grad: JK                            :     56.250u      0.000s     33.779w     43 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     43 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 12:49:53 2021
+Timers Off: Tue Jan  5 12:49:53 2021
+
+Wall Time:        0.23 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 12:50:46 2021
+Timers Off: Tue Jan  5 12:51:48 2021
+
+Wall Time:       62.01 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     16.150u      0.300s      9.868w     50 calls
+HF: Form core H                     :      0.017u      0.033s      0.055w     50 calls
+HF: Form S/X                        :      0.033u      0.000s      0.008w     50 calls
+HF: Guess                           :      0.200u      0.000s      0.121w     50 calls
+SAD Guess                           :      0.183u      0.000s      0.112w      1 calls
+HF: Form G                          :      3.950u      0.083s      2.476w    671 calls
+JK: D                               :      0.000u      0.000s      0.005w    671 calls
+JK: USO2AO                          :      0.100u      0.000s      0.040w    671 calls
+JK: JK                              :      3.717u      0.083s      2.354w    671 calls
+PK computes JK                      :      3.717u      0.083s      2.353w    671 calls
+JK: AO2USO                          :      0.067u      0.000s      0.051w    671 calls
+HF: Form F                          :      0.050u      0.000s      0.005w    671 calls
+HF: Form D                          :      0.017u      0.000s      0.007w    671 calls
+HF: DIIS                            :      0.500u      0.033s      0.279w    670 calls
+DIISManager::add_entry              :      0.083u      0.017s      0.034w    621 calls
+DIISManager::extrapolate            :      0.117u      0.017s      0.065w    621 calls
+bMatrix setup                       :      0.033u      0.000s      0.024w    621 calls
+bMatrix pseudoinverse               :      0.017u      0.000s      0.019w    621 calls
+New vector                          :      0.067u      0.017s      0.020w    621 calls
+HF: Form C                          :      0.250u      0.000s      0.130w    670 calls
+Grad: V T Perturb                   :      0.983u      0.217s      0.689w     50 calls
+Grad: S                             :      0.033u      0.000s      0.032w     50 calls
+Grad: JK                            :     65.533u      0.000s     39.346w     50 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     50 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     16.150u      0.300s      9.868w     50 calls
+HF: Form core H                     :      0.017u      0.033s      0.055w     50 calls
+HF: Form S/X                        :      0.033u      0.000s      0.008w     50 calls
+HF: Guess                           :      0.200u      0.000s      0.121w     50 calls
+| SAD Guess                         :      0.183u      0.000s      0.112w      1 calls
+HF: Form G                          :      3.950u      0.083s      2.476w    671 calls
+| JK: D                             :      0.000u      0.000s      0.005w    671 calls
+| JK: USO2AO                        :      0.100u      0.000s      0.040w    671 calls
+| JK: JK                            :      3.717u      0.083s      2.354w    671 calls
+| | PK computes JK                  :      3.717u      0.083s      2.353w    671 calls
+| JK: AO2USO                        :      0.067u      0.000s      0.051w    671 calls
+HF: Form F                          :      0.050u      0.000s      0.005w    671 calls
+HF: Form D                          :      0.017u      0.000s      0.007w    671 calls
+HF: DIIS                            :      0.500u      0.033s      0.279w    670 calls
+| DIISManager::add_entry            :      0.083u      0.017s      0.034w    621 calls
+| DIISManager::extrapolate          :      0.117u      0.017s      0.065w    621 calls
+| | bMatrix setup                   :      0.033u      0.000s      0.024w    621 calls
+| | bMatrix pseudoinverse           :      0.017u      0.000s      0.019w    621 calls
+| | New vector                      :      0.067u      0.017s      0.020w    621 calls
+HF: Form C                          :      0.250u      0.000s      0.130w    670 calls
+Grad: V T Perturb                   :      0.983u      0.217s      0.689w     50 calls
+Grad: S                             :      0.033u      0.000s      0.032w     50 calls
+Grad: JK                            :     65.533u      0.000s     39.346w     50 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     50 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 12:53:02 2021
+Timers Off: Tue Jan  5 12:54:15 2021
+
+Wall Time:       72.36 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     19.517u      0.450s     11.972w     58 calls
+HF: Form core H                     :      0.067u      0.017s      0.064w     58 calls
+HF: Form S/X                        :      0.033u      0.000s      0.010w     58 calls
+HF: Guess                           :      0.400u      0.000s      0.239w     58 calls
+SAD Guess                           :      0.367u      0.000s      0.222w      2 calls
+HF: Form G                          :      4.517u      0.067s      2.774w    747 calls
+JK: D                               :      0.017u      0.017s      0.006w    747 calls
+JK: USO2AO                          :      0.050u      0.000s      0.045w    747 calls
+JK: JK                              :      4.317u      0.050s      2.635w    747 calls
+PK computes JK                      :      4.317u      0.050s      2.634w    747 calls
+JK: AO2USO                          :      0.100u      0.000s      0.058w    747 calls
+HF: Form F                          :      0.000u      0.000s      0.006w    747 calls
+HF: Form D                          :      0.017u      0.000s      0.008w    747 calls
+HF: DIIS                            :      0.517u      0.000s      0.311w    745 calls
+DIISManager::add_entry              :      0.067u      0.000s      0.038w    689 calls
+DIISManager::extrapolate            :      0.133u      0.000s      0.071w    689 calls
+bMatrix setup                       :      0.033u      0.000s      0.027w    689 calls
+bMatrix pseudoinverse               :      0.067u      0.000s      0.021w    689 calls
+New vector                          :      0.033u      0.000s      0.022w    689 calls
+HF: Form C                          :      0.217u      0.000s      0.145w    745 calls
+Grad: V T Perturb                   :      1.100u      0.250s      0.808w     58 calls
+Grad: S                             :      0.017u      0.000s      0.038w     58 calls
+Grad: JK                            :     76.033u      0.017s     45.615w     58 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     58 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     19.517u      0.450s     11.972w     58 calls
+HF: Form core H                     :      0.067u      0.017s      0.064w     58 calls
+HF: Form S/X                        :      0.033u      0.000s      0.010w     58 calls
+HF: Guess                           :      0.400u      0.000s      0.239w     58 calls
+| SAD Guess                         :      0.367u      0.000s      0.222w      2 calls
+HF: Form G                          :      4.517u      0.067s      2.774w    747 calls
+| JK: D                             :      0.017u      0.017s      0.006w    747 calls
+| JK: USO2AO                        :      0.050u      0.000s      0.045w    747 calls
+| JK: JK                            :      4.317u      0.050s      2.635w    747 calls
+| | PK computes JK                  :      4.317u      0.050s      2.634w    747 calls
+| JK: AO2USO                        :      0.100u      0.000s      0.058w    747 calls
+HF: Form F                          :      0.000u      0.000s      0.006w    747 calls
+HF: Form D                          :      0.017u      0.000s      0.008w    747 calls
+HF: DIIS                            :      0.517u      0.000s      0.311w    745 calls
+| DIISManager::add_entry            :      0.067u      0.000s      0.038w    689 calls
+| DIISManager::extrapolate          :      0.133u      0.000s      0.071w    689 calls
+| | bMatrix setup                   :      0.033u      0.000s      0.027w    689 calls
+| | bMatrix pseudoinverse           :      0.067u      0.000s      0.021w    689 calls
+| | New vector                      :      0.033u      0.000s      0.022w    689 calls
+HF: Form C                          :      0.217u      0.000s      0.145w    745 calls
+Grad: V T Perturb                   :      1.100u      0.250s      0.808w     58 calls
+Grad: S                             :      0.017u      0.000s      0.038w     58 calls
+Grad: JK                            :     76.033u      0.017s     45.615w     58 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     58 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 12:55:58 2021
+Timers Off: Tue Jan  5 12:56:51 2021
+
+Wall Time:       53.50 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     14.817u      0.283s      9.012w     43 calls
+HF: Form core H                     :      0.000u      0.000s      0.048w     43 calls
+HF: Form S/X                        :      0.017u      0.000s      0.008w     43 calls
+HF: Guess                           :      0.400u      0.000s      0.238w     43 calls
+SAD Guess                           :      0.367u      0.000s      0.222w      2 calls
+HF: Form G                          :      3.417u      0.083s      2.049w    553 calls
+JK: D                               :      0.000u      0.000s      0.004w    553 calls
+JK: USO2AO                          :      0.067u      0.000s      0.034w    553 calls
+JK: JK                              :      3.233u      0.083s      1.947w    553 calls
+PK computes JK                      :      3.217u      0.083s      1.946w    553 calls
+JK: AO2USO                          :      0.100u      0.000s      0.043w    553 calls
+HF: Form F                          :      0.000u      0.000s      0.005w    553 calls
+HF: Form D                          :      0.000u      0.000s      0.006w    553 calls
+HF: DIIS                            :      0.367u      0.000s      0.230w    551 calls
+DIISManager::add_entry              :      0.067u      0.000s      0.028w    510 calls
+DIISManager::extrapolate            :      0.067u      0.000s      0.052w    510 calls
+bMatrix setup                       :      0.050u      0.000s      0.020w    510 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.015w    510 calls
+New vector                          :      0.000u      0.000s      0.016w    510 calls
+HF: Form C                          :      0.133u      0.000s      0.107w    551 calls
+Grad: V T Perturb                   :      0.833u      0.167s      0.587w     43 calls
+Grad: S                             :      0.050u      0.000s      0.027w     43 calls
+Grad: JK                            :     55.683u      0.000s     33.382w     43 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     43 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     14.817u      0.283s      9.012w     43 calls
+HF: Form core H                     :      0.000u      0.000s      0.048w     43 calls
+HF: Form S/X                        :      0.017u      0.000s      0.008w     43 calls
+HF: Guess                           :      0.400u      0.000s      0.238w     43 calls
+| SAD Guess                         :      0.367u      0.000s      0.222w      2 calls
+HF: Form G                          :      3.417u      0.083s      2.049w    553 calls
+| JK: D                             :      0.000u      0.000s      0.004w    553 calls
+| JK: USO2AO                        :      0.067u      0.000s      0.034w    553 calls
+| JK: JK                            :      3.233u      0.083s      1.947w    553 calls
+| | PK computes JK                  :      3.217u      0.083s      1.946w    553 calls
+| JK: AO2USO                        :      0.100u      0.000s      0.043w    553 calls
+HF: Form F                          :      0.000u      0.000s      0.005w    553 calls
+HF: Form D                          :      0.000u      0.000s      0.006w    553 calls
+HF: DIIS                            :      0.367u      0.000s      0.230w    551 calls
+| DIISManager::add_entry            :      0.067u      0.000s      0.028w    510 calls
+| DIISManager::extrapolate          :      0.067u      0.000s      0.052w    510 calls
+| | bMatrix setup                   :      0.050u      0.000s      0.020w    510 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.015w    510 calls
+| | New vector                      :      0.000u      0.000s      0.016w    510 calls
+HF: Form C                          :      0.133u      0.000s      0.107w    551 calls
+Grad: V T Perturb                   :      0.833u      0.167s      0.587w     43 calls
+Grad: S                             :      0.050u      0.000s      0.027w     43 calls
+Grad: JK                            :     55.683u      0.000s     33.382w     43 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     43 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 12:57:57 2021
+Timers Off: Tue Jan  5 12:58:49 2021
+
+Wall Time:       51.97 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     14.367u      0.233s      8.783w     42 calls
+HF: Form core H                     :      0.033u      0.000s      0.046w     42 calls
+HF: Form S/X                        :      0.000u      0.000s      0.007w     42 calls
+HF: Guess                           :      0.183u      0.017s      0.120w     42 calls
+SAD Guess                           :      0.183u      0.017s      0.112w      1 calls
+HF: Form G                          :      3.167u      0.100s      2.007w    545 calls
+JK: D                               :      0.000u      0.000s      0.004w    545 calls
+JK: USO2AO                          :      0.050u      0.000s      0.032w    545 calls
+JK: JK                              :      3.017u      0.100s      1.907w    545 calls
+PK computes JK                      :      3.017u      0.100s      1.906w    545 calls
+JK: AO2USO                          :      0.067u      0.000s      0.042w    545 calls
+HF: Form F                          :      0.000u      0.000s      0.004w    545 calls
+HF: Form D                          :      0.033u      0.000s      0.006w    545 calls
+HF: DIIS                            :      0.350u      0.000s      0.225w    544 calls
+DIISManager::add_entry              :      0.083u      0.000s      0.028w    503 calls
+DIISManager::extrapolate            :      0.100u      0.000s      0.051w    503 calls
+bMatrix setup                       :      0.000u      0.000s      0.019w    503 calls
+bMatrix pseudoinverse               :      0.033u      0.000s      0.015w    503 calls
+New vector                          :      0.067u      0.000s      0.015w    503 calls
+HF: Form C                          :      0.167u      0.000s      0.105w    544 calls
+Grad: V T Perturb                   :      0.800u      0.200s      0.575w     42 calls
+Grad: S                             :      0.033u      0.000s      0.026w     42 calls
+Grad: JK                            :     54.250u      0.000s     32.536w     42 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     42 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     14.367u      0.233s      8.783w     42 calls
+HF: Form core H                     :      0.033u      0.000s      0.046w     42 calls
+HF: Form S/X                        :      0.000u      0.000s      0.007w     42 calls
+HF: Guess                           :      0.183u      0.017s      0.120w     42 calls
+| SAD Guess                         :      0.183u      0.017s      0.112w      1 calls
+HF: Form G                          :      3.167u      0.100s      2.007w    545 calls
+| JK: D                             :      0.000u      0.000s      0.004w    545 calls
+| JK: USO2AO                        :      0.050u      0.000s      0.032w    545 calls
+| JK: JK                            :      3.017u      0.100s      1.907w    545 calls
+| | PK computes JK                  :      3.017u      0.100s      1.906w    545 calls
+| JK: AO2USO                        :      0.067u      0.000s      0.042w    545 calls
+HF: Form F                          :      0.000u      0.000s      0.004w    545 calls
+HF: Form D                          :      0.033u      0.000s      0.006w    545 calls
+HF: DIIS                            :      0.350u      0.000s      0.225w    544 calls
+| DIISManager::add_entry            :      0.083u      0.000s      0.028w    503 calls
+| DIISManager::extrapolate          :      0.100u      0.000s      0.051w    503 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.019w    503 calls
+| | bMatrix pseudoinverse           :      0.033u      0.000s      0.015w    503 calls
+| | New vector                      :      0.067u      0.000s      0.015w    503 calls
+HF: Form C                          :      0.167u      0.000s      0.105w    544 calls
+Grad: V T Perturb                   :      0.800u      0.200s      0.575w     42 calls
+Grad: S                             :      0.033u      0.000s      0.026w     42 calls
+Grad: JK                            :     54.250u      0.000s     32.536w     42 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     42 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:01:08 2021
+Timers Off: Tue Jan  5 13:02:11 2021
+
+Wall Time:       62.33 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     17.050u      0.333s     10.509w     50 calls
+HF: Form core H                     :      0.033u      0.017s      0.052w     50 calls
+HF: Form S/X                        :      0.017u      0.000s      0.008w     50 calls
+HF: Guess                           :      0.200u      0.017s      0.120w     50 calls
+SAD Guess                           :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      3.733u      0.033s      2.414w    661 calls
+JK: D                               :      0.000u      0.000s      0.005w    661 calls
+JK: USO2AO                          :      0.167u      0.000s      0.039w    661 calls
+JK: JK                              :      3.433u      0.033s      2.292w    661 calls
+PK computes JK                      :      3.433u      0.033s      2.292w    661 calls
+JK: AO2USO                          :      0.117u      0.000s      0.051w    661 calls
+HF: Form F                          :      0.017u      0.000s      0.005w    661 calls
+HF: Form D                          :      0.017u      0.000s      0.007w    661 calls
+HF: DIIS                            :      0.517u      0.017s      0.271w    660 calls
+DIISManager::add_entry              :      0.050u      0.000s      0.033w    611 calls
+DIISManager::extrapolate            :      0.133u      0.017s      0.062w    611 calls
+bMatrix setup                       :      0.017u      0.000s      0.023w    611 calls
+bMatrix pseudoinverse               :      0.083u      0.000s      0.018w    611 calls
+New vector                          :      0.033u      0.017s      0.019w    611 calls
+HF: Form C                          :      0.167u      0.000s      0.127w    660 calls
+Grad: V T Perturb                   :      1.000u      0.083s      0.683w     50 calls
+Grad: S                             :      0.017u      0.000s      0.032w     50 calls
+Grad: JK                            :     65.150u      0.000s     39.065w     50 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     50 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     17.050u      0.333s     10.509w     50 calls
+HF: Form core H                     :      0.033u      0.017s      0.052w     50 calls
+HF: Form S/X                        :      0.017u      0.000s      0.008w     50 calls
+HF: Guess                           :      0.200u      0.017s      0.120w     50 calls
+| SAD Guess                         :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      3.733u      0.033s      2.414w    661 calls
+| JK: D                             :      0.000u      0.000s      0.005w    661 calls
+| JK: USO2AO                        :      0.167u      0.000s      0.039w    661 calls
+| JK: JK                            :      3.433u      0.033s      2.292w    661 calls
+| | PK computes JK                  :      3.433u      0.033s      2.292w    661 calls
+| JK: AO2USO                        :      0.117u      0.000s      0.051w    661 calls
+HF: Form F                          :      0.017u      0.000s      0.005w    661 calls
+HF: Form D                          :      0.017u      0.000s      0.007w    661 calls
+HF: DIIS                            :      0.517u      0.017s      0.271w    660 calls
+| DIISManager::add_entry            :      0.050u      0.000s      0.033w    611 calls
+| DIISManager::extrapolate          :      0.133u      0.017s      0.062w    611 calls
+| | bMatrix setup                   :      0.017u      0.000s      0.023w    611 calls
+| | bMatrix pseudoinverse           :      0.083u      0.000s      0.018w    611 calls
+| | New vector                      :      0.033u      0.017s      0.019w    611 calls
+HF: Form C                          :      0.167u      0.000s      0.127w    660 calls
+Grad: V T Perturb                   :      1.000u      0.083s      0.683w     50 calls
+Grad: S                             :      0.017u      0.000s      0.032w     50 calls
+Grad: JK                            :     65.150u      0.000s     39.065w     50 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     50 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:02:40 2021
+Timers Off: Tue Jan  5 13:03:48 2021
+
+Wall Time:       67.48 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     18.550u      0.483s     11.351w     54 calls
+HF: Form core H                     :      0.033u      0.000s      0.061w     54 calls
+HF: Form S/X                        :      0.000u      0.000s      0.010w     54 calls
+HF: Guess                           :      0.200u      0.017s      0.120w     54 calls
+SAD Guess                           :      0.183u      0.017s      0.112w      1 calls
+HF: Form G                          :      4.650u      0.050s      2.725w    738 calls
+JK: D                               :      0.000u      0.000s      0.005w    738 calls
+JK: USO2AO                          :      0.017u      0.000s      0.044w    738 calls
+JK: JK                              :      4.517u      0.050s      2.590w    738 calls
+PK computes JK                      :      4.517u      0.050s      2.589w    738 calls
+JK: AO2USO                          :      0.067u      0.000s      0.057w    738 calls
+HF: Form F                          :      0.033u      0.000s      0.006w    738 calls
+HF: Form D                          :      0.000u      0.000s      0.007w    738 calls
+HF: DIIS                            :      0.383u      0.000s      0.307w    737 calls
+DIISManager::add_entry              :      0.083u      0.000s      0.038w    684 calls
+DIISManager::extrapolate            :      0.050u      0.000s      0.071w    684 calls
+bMatrix setup                       :      0.000u      0.000s      0.027w    684 calls
+bMatrix pseudoinverse               :      0.017u      0.000s      0.021w    684 calls
+New vector                          :      0.017u      0.000s      0.022w    684 calls
+HF: Form C                          :      0.250u      0.000s      0.143w    737 calls
+Grad: V T Perturb                   :      1.117u      0.117s      0.749w     54 calls
+Grad: S                             :      0.017u      0.000s      0.035w     54 calls
+Grad: JK                            :     70.433u      0.000s     42.270w     54 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     54 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     18.550u      0.483s     11.351w     54 calls
+HF: Form core H                     :      0.033u      0.000s      0.061w     54 calls
+HF: Form S/X                        :      0.000u      0.000s      0.010w     54 calls
+HF: Guess                           :      0.200u      0.017s      0.120w     54 calls
+| SAD Guess                         :      0.183u      0.017s      0.112w      1 calls
+HF: Form G                          :      4.650u      0.050s      2.725w    738 calls
+| JK: D                             :      0.000u      0.000s      0.005w    738 calls
+| JK: USO2AO                        :      0.017u      0.000s      0.044w    738 calls
+| JK: JK                            :      4.517u      0.050s      2.590w    738 calls
+| | PK computes JK                  :      4.517u      0.050s      2.589w    738 calls
+| JK: AO2USO                        :      0.067u      0.000s      0.057w    738 calls
+HF: Form F                          :      0.033u      0.000s      0.006w    738 calls
+HF: Form D                          :      0.000u      0.000s      0.007w    738 calls
+HF: DIIS                            :      0.383u      0.000s      0.307w    737 calls
+| DIISManager::add_entry            :      0.083u      0.000s      0.038w    684 calls
+| DIISManager::extrapolate          :      0.050u      0.000s      0.071w    684 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.027w    684 calls
+| | bMatrix pseudoinverse           :      0.017u      0.000s      0.021w    684 calls
+| | New vector                      :      0.017u      0.000s      0.022w    684 calls
+HF: Form C                          :      0.250u      0.000s      0.143w    737 calls
+Grad: V T Perturb                   :      1.117u      0.117s      0.749w     54 calls
+Grad: S                             :      0.017u      0.000s      0.035w     54 calls
+Grad: JK                            :     70.433u      0.000s     42.270w     54 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     54 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:04:16 2021
+Timers Off: Tue Jan  5 13:06:18 2021
+
+Wall Time:      121.93 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     30.800u      0.750s     18.894w    100 calls
+HF: Form core H                     :      0.133u      0.000s      0.112w    100 calls
+HF: Form S/X                        :      0.017u      0.000s      0.019w    100 calls
+HF: Guess                           :      0.200u      0.000s      0.121w    100 calls
+SAD Guess                           :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      7.967u      0.083s      4.914w   1321 calls
+JK: D                               :      0.017u      0.000s      0.010w   1321 calls
+JK: USO2AO                          :      0.100u      0.000s      0.081w   1321 calls
+JK: JK                              :      7.667u      0.083s      4.667w   1321 calls
+PK computes JK                      :      7.667u      0.083s      4.665w   1321 calls
+JK: AO2USO                          :      0.133u      0.000s      0.103w   1321 calls
+HF: Form F                          :      0.000u      0.000s      0.011w   1321 calls
+HF: Form D                          :      0.017u      0.000s      0.013w   1321 calls
+HF: DIIS                            :      0.900u      0.033s      0.550w   1320 calls
+DIISManager::add_entry              :      0.117u      0.017s      0.069w   1221 calls
+DIISManager::extrapolate            :      0.217u      0.017s      0.126w   1221 calls
+bMatrix setup                       :      0.067u      0.000s      0.047w   1221 calls
+bMatrix pseudoinverse               :      0.067u      0.000s      0.036w   1221 calls
+New vector                          :      0.067u      0.017s      0.039w   1221 calls
+HF: Form C                          :      0.483u      0.000s      0.257w   1320 calls
+Grad: V T Perturb                   :      1.983u      0.317s      1.379w    100 calls
+Grad: S                             :      0.083u      0.000s      0.063w    100 calls
+Grad: JK                            :    129.867u      0.000s     77.948w    100 calls
+Grad: XC                            :      0.000u      0.000s      0.000w    100 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     30.800u      0.750s     18.894w    100 calls
+HF: Form core H                     :      0.133u      0.000s      0.112w    100 calls
+HF: Form S/X                        :      0.017u      0.000s      0.019w    100 calls
+HF: Guess                           :      0.200u      0.000s      0.121w    100 calls
+| SAD Guess                         :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      7.967u      0.083s      4.914w   1321 calls
+| JK: D                             :      0.017u      0.000s      0.010w   1321 calls
+| JK: USO2AO                        :      0.100u      0.000s      0.081w   1321 calls
+| JK: JK                            :      7.667u      0.083s      4.667w   1321 calls
+| | PK computes JK                  :      7.667u      0.083s      4.665w   1321 calls
+| JK: AO2USO                        :      0.133u      0.000s      0.103w   1321 calls
+HF: Form F                          :      0.000u      0.000s      0.011w   1321 calls
+HF: Form D                          :      0.017u      0.000s      0.013w   1321 calls
+HF: DIIS                            :      0.900u      0.033s      0.550w   1320 calls
+| DIISManager::add_entry            :      0.117u      0.017s      0.069w   1221 calls
+| DIISManager::extrapolate          :      0.217u      0.017s      0.126w   1221 calls
+| | bMatrix setup                   :      0.067u      0.000s      0.047w   1221 calls
+| | bMatrix pseudoinverse           :      0.067u      0.000s      0.036w   1221 calls
+| | New vector                      :      0.067u      0.017s      0.039w   1221 calls
+HF: Form C                          :      0.483u      0.000s      0.257w   1320 calls
+Grad: V T Perturb                   :      1.983u      0.317s      1.379w    100 calls
+Grad: S                             :      0.083u      0.000s      0.063w    100 calls
+Grad: JK                            :    129.867u      0.000s     77.948w    100 calls
+Grad: XC                            :      0.000u      0.000s      0.000w    100 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:09:07 2021
+Timers Off: Tue Jan  5 13:10:19 2021
+
+Wall Time:       71.94 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     19.900u      0.317s     12.109w     58 calls
+HF: Form core H                     :      0.033u      0.017s      0.064w     58 calls
+HF: Form S/X                        :      0.033u      0.000s      0.011w     58 calls
+HF: Guess                           :      0.183u      0.000s      0.120w     58 calls
+SAD Guess                           :      0.167u      0.000s      0.111w      1 calls
+HF: Form G                          :      4.700u      0.083s      2.784w    750 calls
+JK: D                               :      0.000u      0.017s      0.006w    750 calls
+JK: USO2AO                          :      0.083u      0.033s      0.045w    750 calls
+JK: JK                              :      4.500u      0.033s      2.646w    750 calls
+PK computes JK                      :      4.467u      0.033s      2.645w    750 calls
+JK: AO2USO                          :      0.050u      0.000s      0.058w    750 calls
+HF: Form F                          :      0.000u      0.000s      0.006w    750 calls
+HF: Form D                          :      0.017u      0.000s      0.008w    750 calls
+HF: DIIS                            :      0.417u      0.033s      0.310w    749 calls
+DIISManager::add_entry              :      0.083u      0.017s      0.038w    692 calls
+DIISManager::extrapolate            :      0.033u      0.000s      0.070w    692 calls
+bMatrix setup                       :      0.017u      0.000s      0.026w    692 calls
+bMatrix pseudoinverse               :      0.017u      0.000s      0.020w    692 calls
+New vector                          :      0.000u      0.000s      0.021w    692 calls
+HF: Form C                          :      0.233u      0.000s      0.146w    749 calls
+Grad: V T Perturb                   :      1.183u      0.117s      0.799w     58 calls
+Grad: S                             :      0.033u      0.017s      0.037w     58 calls
+Grad: JK                            :     75.350u      0.000s     45.201w     58 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     58 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     19.900u      0.317s     12.109w     58 calls
+HF: Form core H                     :      0.033u      0.017s      0.064w     58 calls
+HF: Form S/X                        :      0.033u      0.000s      0.011w     58 calls
+HF: Guess                           :      0.183u      0.000s      0.120w     58 calls
+| SAD Guess                         :      0.167u      0.000s      0.111w      1 calls
+HF: Form G                          :      4.700u      0.083s      2.784w    750 calls
+| JK: D                             :      0.000u      0.017s      0.006w    750 calls
+| JK: USO2AO                        :      0.083u      0.033s      0.045w    750 calls
+| JK: JK                            :      4.500u      0.033s      2.646w    750 calls
+| | PK computes JK                  :      4.467u      0.033s      2.645w    750 calls
+| JK: AO2USO                        :      0.050u      0.000s      0.058w    750 calls
+HF: Form F                          :      0.000u      0.000s      0.006w    750 calls
+HF: Form D                          :      0.017u      0.000s      0.008w    750 calls
+HF: DIIS                            :      0.417u      0.033s      0.310w    749 calls
+| DIISManager::add_entry            :      0.083u      0.017s      0.038w    692 calls
+| DIISManager::extrapolate          :      0.033u      0.000s      0.070w    692 calls
+| | bMatrix setup                   :      0.017u      0.000s      0.026w    692 calls
+| | bMatrix pseudoinverse           :      0.017u      0.000s      0.020w    692 calls
+| | New vector                      :      0.000u      0.000s      0.021w    692 calls
+HF: Form C                          :      0.233u      0.000s      0.146w    749 calls
+Grad: V T Perturb                   :      1.183u      0.117s      0.799w     58 calls
+Grad: S                             :      0.033u      0.017s      0.037w     58 calls
+Grad: JK                            :     75.350u      0.000s     45.201w     58 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     58 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:12:57 2021
+Timers Off: Tue Jan  5 13:13:55 2021
+
+Wall Time:       58.07 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     34.417u      0.833s     21.083w    100 calls
+HF: Form core H                     :      0.067u      0.017s      0.043w    100 calls
+HF: Form S/X                        :      0.000u      0.000s      0.016w    100 calls
+HF: Guess                           :     19.600u      0.083s     11.824w    100 calls
+SAD Guess                           :     18.500u      0.033s     11.076w    100 calls
+HF: Form G                          :      7.717u      0.100s      4.920w   1336 calls
+JK: D                               :      0.033u      0.000s      0.010w   1336 calls
+JK: USO2AO                          :      0.133u      0.000s      0.086w   1336 calls
+JK: JK                              :      7.400u      0.083s      4.668w   1336 calls
+PK computes JK                      :      7.400u      0.083s      4.666w   1336 calls
+JK: AO2USO                          :      0.100u      0.000s      0.104w   1336 calls
+HF: Form F                          :      0.000u      0.000s      0.011w   1336 calls
+HF: Form D                          :      0.067u      0.000s      0.014w   1336 calls
+HF: DIIS                            :      0.950u      0.067s      0.563w   1236 calls
+DIISManager::add_entry              :      0.217u      0.017s      0.069w   1236 calls
+DIISManager::extrapolate            :      0.250u      0.017s      0.133w   1236 calls
+bMatrix setup                       :      0.067u      0.017s      0.054w   1236 calls
+bMatrix pseudoinverse               :      0.100u      0.000s      0.037w   1236 calls
+New vector                          :      0.083u      0.000s      0.039w   1236 calls
+HF: Form C                          :      0.450u      0.000s      0.236w   1236 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     34.417u      0.833s     21.083w    100 calls
+HF: Form core H                     :      0.067u      0.017s      0.043w    100 calls
+HF: Form S/X                        :      0.000u      0.000s      0.016w    100 calls
+HF: Guess                           :     19.600u      0.083s     11.824w    100 calls
+| SAD Guess                         :     18.500u      0.033s     11.076w    100 calls
+HF: Form G                          :      7.717u      0.100s      4.920w   1336 calls
+| JK: D                             :      0.033u      0.000s      0.010w   1336 calls
+| JK: USO2AO                        :      0.133u      0.000s      0.086w   1336 calls
+| JK: JK                            :      7.400u      0.083s      4.668w   1336 calls
+| | PK computes JK                  :      7.400u      0.083s      4.666w   1336 calls
+| JK: AO2USO                        :      0.100u      0.000s      0.104w   1336 calls
+HF: Form F                          :      0.000u      0.000s      0.011w   1336 calls
+HF: Form D                          :      0.067u      0.000s      0.014w   1336 calls
+HF: DIIS                            :      0.950u      0.067s      0.563w   1236 calls
+| DIISManager::add_entry            :      0.217u      0.017s      0.069w   1236 calls
+| DIISManager::extrapolate          :      0.250u      0.017s      0.133w   1236 calls
+| | bMatrix setup                   :      0.067u      0.017s      0.054w   1236 calls
+| | bMatrix pseudoinverse           :      0.100u      0.000s      0.037w   1236 calls
+| | New vector                      :      0.083u      0.000s      0.039w   1236 calls
+HF: Form C                          :      0.450u      0.000s      0.236w   1236 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:16:07 2021
+Timers Off: Tue Jan  5 13:18:11 2021
+
+Wall Time:      123.35 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     34.217u      0.700s     20.947w    100 calls
+HF: Form core H                     :      0.033u      0.000s      0.111w    100 calls
+HF: Form S/X                        :      0.033u      0.000s      0.018w    100 calls
+HF: Guess                           :      0.217u      0.000s      0.138w    100 calls
+SAD Guess                           :      0.200u      0.000s      0.116w      1 calls
+HF: Form G                          :      7.450u      0.150s      4.447w   1204 calls
+JK: D                               :      0.033u      0.000s      0.009w   1204 calls
+JK: USO2AO                          :      0.100u      0.000s      0.073w   1204 calls
+JK: JK                              :      7.067u      0.150s      4.226w   1204 calls
+PK computes JK                      :      7.067u      0.150s      4.224w   1204 calls
+JK: AO2USO                          :      0.183u      0.000s      0.092w   1204 calls
+HF: Form F                          :      0.017u      0.000s      0.010w   1204 calls
+HF: Form D                          :      0.017u      0.000s      0.013w   1204 calls
+HF: DIIS                            :      0.783u      0.000s      0.494w   1203 calls
+DIISManager::add_entry              :      0.100u      0.000s      0.064w   1104 calls
+DIISManager::extrapolate            :      0.200u      0.000s      0.108w   1104 calls
+bMatrix setup                       :      0.083u      0.000s      0.041w   1104 calls
+bMatrix pseudoinverse               :      0.067u      0.000s      0.031w   1104 calls
+New vector                          :      0.033u      0.000s      0.033w   1104 calls
+HF: Form C                          :      0.300u      0.000s      0.231w   1203 calls
+Grad: V T Perturb                   :      1.933u      0.350s      1.380w    100 calls
+Grad: S                             :      0.067u      0.000s      0.063w    100 calls
+Grad: JK                            :    129.683u      0.000s     77.798w    100 calls
+Grad: XC                            :      0.000u      0.000s      0.000w    100 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     34.217u      0.700s     20.947w    100 calls
+HF: Form core H                     :      0.033u      0.000s      0.111w    100 calls
+HF: Form S/X                        :      0.033u      0.000s      0.018w    100 calls
+HF: Guess                           :      0.217u      0.000s      0.138w    100 calls
+| SAD Guess                         :      0.200u      0.000s      0.116w      1 calls
+HF: Form G                          :      7.450u      0.150s      4.447w   1204 calls
+| JK: D                             :      0.033u      0.000s      0.009w   1204 calls
+| JK: USO2AO                        :      0.100u      0.000s      0.073w   1204 calls
+| JK: JK                            :      7.067u      0.150s      4.226w   1204 calls
+| | PK computes JK                  :      7.067u      0.150s      4.224w   1204 calls
+| JK: AO2USO                        :      0.183u      0.000s      0.092w   1204 calls
+HF: Form F                          :      0.017u      0.000s      0.010w   1204 calls
+HF: Form D                          :      0.017u      0.000s      0.013w   1204 calls
+HF: DIIS                            :      0.783u      0.000s      0.494w   1203 calls
+| DIISManager::add_entry            :      0.100u      0.000s      0.064w   1104 calls
+| DIISManager::extrapolate          :      0.200u      0.000s      0.108w   1104 calls
+| | bMatrix setup                   :      0.083u      0.000s      0.041w   1104 calls
+| | bMatrix pseudoinverse           :      0.067u      0.000s      0.031w   1104 calls
+| | New vector                      :      0.033u      0.000s      0.033w   1104 calls
+HF: Form C                          :      0.300u      0.000s      0.231w   1203 calls
+Grad: V T Perturb                   :      1.933u      0.350s      1.380w    100 calls
+Grad: S                             :      0.067u      0.000s      0.063w    100 calls
+Grad: JK                            :    129.683u      0.000s     77.798w    100 calls
+Grad: XC                            :      0.000u      0.000s      0.000w    100 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:19:20 2021
+Timers Off: Tue Jan  5 13:19:47 2021
+
+Wall Time:       27.35 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      7.483u      0.167s      4.598w     22 calls
+HF: Form core H                     :      0.000u      0.000s      0.025w     22 calls
+HF: Form S/X                        :      0.000u      0.000s      0.004w     22 calls
+HF: Guess                           :      0.183u      0.000s      0.119w     22 calls
+SAD Guess                           :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      1.733u      0.017s      1.007w    272 calls
+JK: D                               :      0.000u      0.000s      0.002w    272 calls
+JK: USO2AO                          :      0.000u      0.000s      0.016w    272 calls
+JK: JK                              :      1.683u      0.017s      0.957w    272 calls
+PK computes JK                      :      1.683u      0.017s      0.957w    272 calls
+JK: AO2USO                          :      0.050u      0.000s      0.021w    272 calls
+HF: Form F                          :      0.017u      0.000s      0.002w    272 calls
+HF: Form D                          :      0.000u      0.000s      0.003w    272 calls
+HF: DIIS                            :      0.133u      0.000s      0.112w    271 calls
+DIISManager::add_entry              :      0.050u      0.000s      0.014w    250 calls
+DIISManager::extrapolate            :      0.017u      0.000s      0.025w    250 calls
+bMatrix setup                       :      0.000u      0.000s      0.009w    250 calls
+bMatrix pseudoinverse               :      0.017u      0.000s      0.007w    250 calls
+New vector                          :      0.000u      0.000s      0.008w    250 calls
+HF: Form C                          :      0.133u      0.000s      0.052w    271 calls
+Grad: V T Perturb                   :      0.400u      0.050s      0.303w     22 calls
+Grad: S                             :      0.017u      0.000s      0.014w     22 calls
+Grad: JK                            :     28.383u      0.000s     17.026w     22 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     22 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      7.483u      0.167s      4.598w     22 calls
+HF: Form core H                     :      0.000u      0.000s      0.025w     22 calls
+HF: Form S/X                        :      0.000u      0.000s      0.004w     22 calls
+HF: Guess                           :      0.183u      0.000s      0.119w     22 calls
+| SAD Guess                         :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      1.733u      0.017s      1.007w    272 calls
+| JK: D                             :      0.000u      0.000s      0.002w    272 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.016w    272 calls
+| JK: JK                            :      1.683u      0.017s      0.957w    272 calls
+| | PK computes JK                  :      1.683u      0.017s      0.957w    272 calls
+| JK: AO2USO                        :      0.050u      0.000s      0.021w    272 calls
+HF: Form F                          :      0.017u      0.000s      0.002w    272 calls
+HF: Form D                          :      0.000u      0.000s      0.003w    272 calls
+HF: DIIS                            :      0.133u      0.000s      0.112w    271 calls
+| DIISManager::add_entry            :      0.050u      0.000s      0.014w    250 calls
+| DIISManager::extrapolate          :      0.017u      0.000s      0.025w    250 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.009w    250 calls
+| | bMatrix pseudoinverse           :      0.017u      0.000s      0.007w    250 calls
+| | New vector                      :      0.000u      0.000s      0.008w    250 calls
+HF: Form C                          :      0.133u      0.000s      0.052w    271 calls
+Grad: V T Perturb                   :      0.400u      0.050s      0.303w     22 calls
+Grad: S                             :      0.017u      0.000s      0.014w     22 calls
+Grad: JK                            :     28.383u      0.000s     17.026w     22 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     22 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:21:05 2021
+Timers Off: Tue Jan  5 13:21:09 2021
+
+Wall Time:        4.07 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      1.033u      0.033s      0.629w      3 calls
+HF: Form core H                     :      0.000u      0.000s      0.003w      3 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      3 calls
+HF: Guess                           :      0.200u      0.000s      0.120w      3 calls
+SAD Guess                           :      0.183u      0.000s      0.112w      1 calls
+HF: Form G                          :      0.250u      0.017s      0.138w     38 calls
+JK: D                               :      0.000u      0.000s      0.000w     38 calls
+JK: USO2AO                          :      0.000u      0.000s      0.002w     38 calls
+JK: JK                              :      0.233u      0.017s      0.131w     38 calls
+PK computes JK                      :      0.233u      0.017s      0.131w     38 calls
+JK: AO2USO                          :      0.000u      0.000s      0.003w     38 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     38 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     38 calls
+HF: DIIS                            :      0.017u      0.000s      0.015w     37 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.002w     35 calls
+DIISManager::extrapolate            :      0.000u      0.000s      0.003w     35 calls
+bMatrix setup                       :      0.000u      0.000s      0.001w     35 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.001w     35 calls
+New vector                          :      0.000u      0.000s      0.001w     35 calls
+HF: Form C                          :      0.017u      0.000s      0.007w     37 calls
+Grad: V T Perturb                   :      0.050u      0.017s      0.042w      3 calls
+Grad: S                             :      0.000u      0.000s      0.002w      3 calls
+Grad: JK                            :      3.883u      0.000s      2.324w      3 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      3 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      1.033u      0.033s      0.629w      3 calls
+HF: Form core H                     :      0.000u      0.000s      0.003w      3 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      3 calls
+HF: Guess                           :      0.200u      0.000s      0.120w      3 calls
+| SAD Guess                         :      0.183u      0.000s      0.112w      1 calls
+HF: Form G                          :      0.250u      0.017s      0.138w     38 calls
+| JK: D                             :      0.000u      0.000s      0.000w     38 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.002w     38 calls
+| JK: JK                            :      0.233u      0.017s      0.131w     38 calls
+| | PK computes JK                  :      0.233u      0.017s      0.131w     38 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.003w     38 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     38 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     38 calls
+HF: DIIS                            :      0.017u      0.000s      0.015w     37 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.002w     35 calls
+| DIISManager::extrapolate          :      0.000u      0.000s      0.003w     35 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.001w     35 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.001w     35 calls
+| | New vector                      :      0.000u      0.000s      0.001w     35 calls
+HF: Form C                          :      0.017u      0.000s      0.007w     37 calls
+Grad: V T Perturb                   :      0.050u      0.017s      0.042w      3 calls
+Grad: S                             :      0.000u      0.000s      0.002w      3 calls
+Grad: JK                            :      3.883u      0.000s      2.324w      3 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      3 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:22:18 2021
+Timers Off: Tue Jan  5 13:22:30 2021
+
+Wall Time:       11.51 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      3.083u      0.050s      1.888w      9 calls
+HF: Form core H                     :      0.000u      0.000s      0.010w      9 calls
+HF: Form S/X                        :      0.000u      0.000s      0.002w      9 calls
+HF: Guess                           :      0.200u      0.000s      0.119w      9 calls
+SAD Guess                           :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      0.800u      0.017s      0.451w    121 calls
+JK: D                               :      0.000u      0.000s      0.001w    121 calls
+JK: USO2AO                          :      0.000u      0.000s      0.007w    121 calls
+JK: JK                              :      0.767u      0.017s      0.429w    121 calls
+PK computes JK                      :      0.750u      0.017s      0.429w    121 calls
+JK: AO2USO                          :      0.017u      0.000s      0.009w    121 calls
+HF: Form F                          :      0.000u      0.000s      0.001w    121 calls
+HF: Form D                          :      0.000u      0.000s      0.001w    121 calls
+HF: DIIS                            :      0.033u      0.000s      0.050w    120 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.006w    112 calls
+DIISManager::extrapolate            :      0.000u      0.000s      0.011w    112 calls
+bMatrix setup                       :      0.000u      0.000s      0.004w    112 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.003w    112 calls
+New vector                          :      0.000u      0.000s      0.003w    112 calls
+HF: Form C                          :      0.000u      0.000s      0.023w    120 calls
+Grad: V T Perturb                   :      0.167u      0.050s      0.124w      9 calls
+Grad: S                             :      0.017u      0.000s      0.005w      9 calls
+Grad: JK                            :     11.567u      0.000s      6.950w      9 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      9 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      3.083u      0.050s      1.888w      9 calls
+HF: Form core H                     :      0.000u      0.000s      0.010w      9 calls
+HF: Form S/X                        :      0.000u      0.000s      0.002w      9 calls
+HF: Guess                           :      0.200u      0.000s      0.119w      9 calls
+| SAD Guess                         :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      0.800u      0.017s      0.451w    121 calls
+| JK: D                             :      0.000u      0.000s      0.001w    121 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.007w    121 calls
+| JK: JK                            :      0.767u      0.017s      0.429w    121 calls
+| | PK computes JK                  :      0.750u      0.017s      0.429w    121 calls
+| JK: AO2USO                        :      0.017u      0.000s      0.009w    121 calls
+HF: Form F                          :      0.000u      0.000s      0.001w    121 calls
+HF: Form D                          :      0.000u      0.000s      0.001w    121 calls
+HF: DIIS                            :      0.033u      0.000s      0.050w    120 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.006w    112 calls
+| DIISManager::extrapolate          :      0.000u      0.000s      0.011w    112 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.004w    112 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.003w    112 calls
+| | New vector                      :      0.000u      0.000s      0.003w    112 calls
+HF: Form C                          :      0.000u      0.000s      0.023w    120 calls
+Grad: V T Perturb                   :      0.167u      0.050s      0.124w      9 calls
+Grad: S                             :      0.017u      0.000s      0.005w      9 calls
+Grad: JK                            :     11.567u      0.000s      6.950w      9 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      9 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:23:13 2021
+Timers Off: Tue Jan  5 13:23:25 2021
+
+Wall Time:       11.54 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      3.083u      0.067s      1.899w      9 calls
+HF: Form core H                     :      0.000u      0.000s      0.009w      9 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      9 calls
+HF: Guess                           :      0.200u      0.000s      0.119w      9 calls
+SAD Guess                           :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      0.767u      0.050s      0.444w    121 calls
+JK: D                               :      0.000u      0.000s      0.001w    121 calls
+JK: USO2AO                          :      0.017u      0.000s      0.007w    121 calls
+JK: JK                              :      0.733u      0.050s      0.422w    121 calls
+PK computes JK                      :      0.733u      0.050s      0.422w    121 calls
+JK: AO2USO                          :      0.017u      0.000s      0.009w    121 calls
+HF: Form F                          :      0.000u      0.000s      0.001w    121 calls
+HF: Form D                          :      0.000u      0.000s      0.001w    121 calls
+HF: DIIS                            :      0.083u      0.000s      0.049w    120 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.006w    112 calls
+DIISManager::extrapolate            :      0.017u      0.000s      0.011w    112 calls
+bMatrix setup                       :      0.000u      0.000s      0.004w    112 calls
+bMatrix pseudoinverse               :      0.017u      0.000s      0.003w    112 calls
+New vector                          :      0.000u      0.000s      0.003w    112 calls
+HF: Form C                          :      0.033u      0.000s      0.023w    120 calls
+Grad: V T Perturb                   :      0.200u      0.050s      0.124w      9 calls
+Grad: S                             :      0.000u      0.000s      0.006w      9 calls
+Grad: JK                            :     11.650u      0.000s      6.999w      9 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      9 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      3.083u      0.067s      1.899w      9 calls
+HF: Form core H                     :      0.000u      0.000s      0.009w      9 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      9 calls
+HF: Guess                           :      0.200u      0.000s      0.119w      9 calls
+| SAD Guess                         :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      0.767u      0.050s      0.444w    121 calls
+| JK: D                             :      0.000u      0.000s      0.001w    121 calls
+| JK: USO2AO                        :      0.017u      0.000s      0.007w    121 calls
+| JK: JK                            :      0.733u      0.050s      0.422w    121 calls
+| | PK computes JK                  :      0.733u      0.050s      0.422w    121 calls
+| JK: AO2USO                        :      0.017u      0.000s      0.009w    121 calls
+HF: Form F                          :      0.000u      0.000s      0.001w    121 calls
+HF: Form D                          :      0.000u      0.000s      0.001w    121 calls
+HF: DIIS                            :      0.083u      0.000s      0.049w    120 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.006w    112 calls
+| DIISManager::extrapolate          :      0.017u      0.000s      0.011w    112 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.004w    112 calls
+| | bMatrix pseudoinverse           :      0.017u      0.000s      0.003w    112 calls
+| | New vector                      :      0.000u      0.000s      0.003w    112 calls
+HF: Form C                          :      0.033u      0.000s      0.023w    120 calls
+Grad: V T Perturb                   :      0.200u      0.050s      0.124w      9 calls
+Grad: S                             :      0.000u      0.000s      0.006w      9 calls
+Grad: JK                            :     11.650u      0.000s      6.999w      9 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      9 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:26:13 2021
+Timers Off: Tue Jan  5 13:27:54 2021
+
+Wall Time:      101.88 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     28.117u      0.550s     17.237w     82 calls
+HF: Form core H                     :      0.083u      0.000s      0.090w     82 calls
+HF: Form S/X                        :      0.033u      0.000s      0.014w     82 calls
+HF: Guess                           :      0.217u      0.000s      0.121w     82 calls
+SAD Guess                           :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      6.317u      0.133s      3.802w   1031 calls
+JK: D                               :      0.017u      0.000s      0.008w   1031 calls
+JK: USO2AO                          :      0.100u      0.000s      0.063w   1031 calls
+JK: JK                              :      6.033u      0.133s      3.612w   1031 calls
+PK computes JK                      :      6.033u      0.133s      3.611w   1031 calls
+JK: AO2USO                          :      0.133u      0.000s      0.079w   1031 calls
+HF: Form F                          :      0.033u      0.000s      0.009w   1031 calls
+HF: Form D                          :      0.033u      0.000s      0.010w   1031 calls
+HF: DIIS                            :      0.733u      0.000s      0.424w   1030 calls
+DIISManager::add_entry              :      0.117u      0.000s      0.053w    949 calls
+DIISManager::extrapolate            :      0.067u      0.000s      0.095w    949 calls
+bMatrix setup                       :      0.033u      0.000s      0.035w    949 calls
+bMatrix pseudoinverse               :      0.033u      0.000s      0.028w    949 calls
+New vector                          :      0.000u      0.000s      0.028w    949 calls
+HF: Form C                          :      0.317u      0.000s      0.199w   1030 calls
+Grad: V T Perturb                   :      1.633u      0.183s      1.137w     82 calls
+Grad: S                             :      0.083u      0.000s      0.049w     82 calls
+Grad: JK                            :    106.883u      0.000s     64.140w     82 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     82 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     28.117u      0.550s     17.237w     82 calls
+HF: Form core H                     :      0.083u      0.000s      0.090w     82 calls
+HF: Form S/X                        :      0.033u      0.000s      0.014w     82 calls
+HF: Guess                           :      0.217u      0.000s      0.121w     82 calls
+| SAD Guess                         :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      6.317u      0.133s      3.802w   1031 calls
+| JK: D                             :      0.017u      0.000s      0.008w   1031 calls
+| JK: USO2AO                        :      0.100u      0.000s      0.063w   1031 calls
+| JK: JK                            :      6.033u      0.133s      3.612w   1031 calls
+| | PK computes JK                  :      6.033u      0.133s      3.611w   1031 calls
+| JK: AO2USO                        :      0.133u      0.000s      0.079w   1031 calls
+HF: Form F                          :      0.033u      0.000s      0.009w   1031 calls
+HF: Form D                          :      0.033u      0.000s      0.010w   1031 calls
+HF: DIIS                            :      0.733u      0.000s      0.424w   1030 calls
+| DIISManager::add_entry            :      0.117u      0.000s      0.053w    949 calls
+| DIISManager::extrapolate          :      0.067u      0.000s      0.095w    949 calls
+| | bMatrix setup                   :      0.033u      0.000s      0.035w    949 calls
+| | bMatrix pseudoinverse           :      0.033u      0.000s      0.028w    949 calls
+| | New vector                      :      0.000u      0.000s      0.028w    949 calls
+HF: Form C                          :      0.317u      0.000s      0.199w   1030 calls
+Grad: V T Perturb                   :      1.633u      0.183s      1.137w     82 calls
+Grad: S                             :      0.083u      0.000s      0.049w     82 calls
+Grad: JK                            :    106.883u      0.000s     64.140w     82 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     82 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:29:27 2021
+Timers Off: Tue Jan  5 13:29:35 2021
+
+Wall Time:        7.89 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      2.067u      0.033s      1.270w      6 calls
+HF: Form core H                     :      0.033u      0.000s      0.007w      6 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      6 calls
+HF: Guess                           :      0.217u      0.000s      0.130w      6 calls
+SAD Guess                           :      0.200u      0.000s      0.112w      1 calls
+HF: Form G                          :      0.500u      0.000s      0.303w     82 calls
+JK: D                               :      0.000u      0.000s      0.001w     82 calls
+JK: USO2AO                          :      0.000u      0.000s      0.005w     82 calls
+JK: JK                              :      0.467u      0.000s      0.288w     82 calls
+PK computes JK                      :      0.467u      0.000s      0.288w     82 calls
+JK: AO2USO                          :      0.017u      0.000s      0.006w     82 calls
+HF: Form F                          :      0.000u      0.000s      0.001w     82 calls
+HF: Form D                          :      0.000u      0.000s      0.001w     82 calls
+HF: DIIS                            :      0.067u      0.000s      0.034w     81 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.004w     76 calls
+DIISManager::extrapolate            :      0.033u      0.000s      0.008w     76 calls
+bMatrix setup                       :      0.000u      0.000s      0.003w     76 calls
+bMatrix pseudoinverse               :      0.017u      0.000s      0.002w     76 calls
+New vector                          :      0.017u      0.000s      0.002w     76 calls
+HF: Form C                          :      0.000u      0.000s      0.017w     81 calls
+Grad: V T Perturb                   :      0.117u      0.000s      0.082w      6 calls
+Grad: S                             :      0.000u      0.000s      0.004w      6 calls
+Grad: JK                            :      7.850u      0.000s      4.708w      6 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      6 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      2.067u      0.033s      1.270w      6 calls
+HF: Form core H                     :      0.033u      0.000s      0.007w      6 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      6 calls
+HF: Guess                           :      0.217u      0.000s      0.130w      6 calls
+| SAD Guess                         :      0.200u      0.000s      0.112w      1 calls
+HF: Form G                          :      0.500u      0.000s      0.303w     82 calls
+| JK: D                             :      0.000u      0.000s      0.001w     82 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.005w     82 calls
+| JK: JK                            :      0.467u      0.000s      0.288w     82 calls
+| | PK computes JK                  :      0.467u      0.000s      0.288w     82 calls
+| JK: AO2USO                        :      0.017u      0.000s      0.006w     82 calls
+HF: Form F                          :      0.000u      0.000s      0.001w     82 calls
+HF: Form D                          :      0.000u      0.000s      0.001w     82 calls
+HF: DIIS                            :      0.067u      0.000s      0.034w     81 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.004w     76 calls
+| DIISManager::extrapolate          :      0.033u      0.000s      0.008w     76 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.003w     76 calls
+| | bMatrix pseudoinverse           :      0.017u      0.000s      0.002w     76 calls
+| | New vector                      :      0.017u      0.000s      0.002w     76 calls
+HF: Form C                          :      0.000u      0.000s      0.017w     81 calls
+Grad: V T Perturb                   :      0.117u      0.000s      0.082w      6 calls
+Grad: S                             :      0.000u      0.000s      0.004w      6 calls
+Grad: JK                            :      7.850u      0.000s      4.708w      6 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      6 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:31:39 2021
+Timers Off: Tue Jan  5 13:31:50 2021
+
+Wall Time:       11.52 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      3.083u      0.100s      1.895w      9 calls
+HF: Form core H                     :      0.033u      0.000s      0.010w      9 calls
+HF: Form S/X                        :      0.017u      0.000s      0.002w      9 calls
+HF: Guess                           :      0.183u      0.000s      0.119w      9 calls
+SAD Guess                           :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      0.767u      0.000s      0.451w    121 calls
+JK: D                               :      0.000u      0.000s      0.001w    121 calls
+JK: USO2AO                          :      0.000u      0.000s      0.007w    121 calls
+JK: JK                              :      0.750u      0.000s      0.428w    121 calls
+PK computes JK                      :      0.750u      0.000s      0.428w    121 calls
+JK: AO2USO                          :      0.017u      0.000s      0.009w    121 calls
+HF: Form F                          :      0.000u      0.000s      0.001w    121 calls
+HF: Form D                          :      0.000u      0.000s      0.001w    121 calls
+HF: DIIS                            :      0.050u      0.000s      0.050w    120 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.006w    112 calls
+DIISManager::extrapolate            :      0.017u      0.000s      0.011w    112 calls
+bMatrix setup                       :      0.000u      0.000s      0.004w    112 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.003w    112 calls
+New vector                          :      0.017u      0.000s      0.003w    112 calls
+HF: Form C                          :      0.017u      0.000s      0.023w    120 calls
+Grad: V T Perturb                   :      0.183u      0.017s      0.125w      9 calls
+Grad: S                             :      0.000u      0.000s      0.005w      9 calls
+Grad: JK                            :     11.617u      0.000s      6.987w      9 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      9 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      3.083u      0.100s      1.895w      9 calls
+HF: Form core H                     :      0.033u      0.000s      0.010w      9 calls
+HF: Form S/X                        :      0.017u      0.000s      0.002w      9 calls
+HF: Guess                           :      0.183u      0.000s      0.119w      9 calls
+| SAD Guess                         :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      0.767u      0.000s      0.451w    121 calls
+| JK: D                             :      0.000u      0.000s      0.001w    121 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.007w    121 calls
+| JK: JK                            :      0.750u      0.000s      0.428w    121 calls
+| | PK computes JK                  :      0.750u      0.000s      0.428w    121 calls
+| JK: AO2USO                        :      0.017u      0.000s      0.009w    121 calls
+HF: Form F                          :      0.000u      0.000s      0.001w    121 calls
+HF: Form D                          :      0.000u      0.000s      0.001w    121 calls
+HF: DIIS                            :      0.050u      0.000s      0.050w    120 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.006w    112 calls
+| DIISManager::extrapolate          :      0.017u      0.000s      0.011w    112 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.004w    112 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.003w    112 calls
+| | New vector                      :      0.017u      0.000s      0.003w    112 calls
+HF: Form C                          :      0.017u      0.000s      0.023w    120 calls
+Grad: V T Perturb                   :      0.183u      0.017s      0.125w      9 calls
+Grad: S                             :      0.000u      0.000s      0.005w      9 calls
+Grad: JK                            :     11.617u      0.000s      6.987w      9 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      9 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:44:15 2021
+Timers Off: Tue Jan  5 13:44:26 2021
+
+Wall Time:       11.55 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      3.150u      0.067s      1.910w      9 calls
+HF: Form core H                     :      0.017u      0.000s      0.010w      9 calls
+HF: Form S/X                        :      0.017u      0.000s      0.002w      9 calls
+HF: Guess                           :      0.183u      0.000s      0.119w      9 calls
+SAD Guess                           :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      0.567u      0.000s      0.448w    121 calls
+JK: D                               :      0.000u      0.000s      0.001w    121 calls
+JK: USO2AO                          :      0.000u      0.000s      0.007w    121 calls
+JK: JK                              :      0.550u      0.000s      0.426w    121 calls
+PK computes JK                      :      0.550u      0.000s      0.426w    121 calls
+JK: AO2USO                          :      0.017u      0.000s      0.009w    121 calls
+HF: Form F                          :      0.017u      0.000s      0.001w    121 calls
+HF: Form D                          :      0.000u      0.000s      0.001w    121 calls
+HF: DIIS                            :      0.117u      0.000s      0.050w    120 calls
+DIISManager::add_entry              :      0.017u      0.000s      0.006w    112 calls
+DIISManager::extrapolate            :      0.000u      0.000s      0.012w    112 calls
+bMatrix setup                       :      0.000u      0.000s      0.004w    112 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.003w    112 calls
+New vector                          :      0.000u      0.000s      0.004w    112 calls
+HF: Form C                          :      0.067u      0.000s      0.023w    120 calls
+Grad: V T Perturb                   :      0.167u      0.067s      0.128w      9 calls
+Grad: S                             :      0.017u      0.000s      0.004w      9 calls
+Grad: JK                            :     11.600u      0.000s      6.967w      9 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      9 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      3.150u      0.067s      1.910w      9 calls
+HF: Form core H                     :      0.017u      0.000s      0.010w      9 calls
+HF: Form S/X                        :      0.017u      0.000s      0.002w      9 calls
+HF: Guess                           :      0.183u      0.000s      0.119w      9 calls
+| SAD Guess                         :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      0.567u      0.000s      0.448w    121 calls
+| JK: D                             :      0.000u      0.000s      0.001w    121 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.007w    121 calls
+| JK: JK                            :      0.550u      0.000s      0.426w    121 calls
+| | PK computes JK                  :      0.550u      0.000s      0.426w    121 calls
+| JK: AO2USO                        :      0.017u      0.000s      0.009w    121 calls
+HF: Form F                          :      0.017u      0.000s      0.001w    121 calls
+HF: Form D                          :      0.000u      0.000s      0.001w    121 calls
+HF: DIIS                            :      0.117u      0.000s      0.050w    120 calls
+| DIISManager::add_entry            :      0.017u      0.000s      0.006w    112 calls
+| DIISManager::extrapolate          :      0.000u      0.000s      0.012w    112 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.004w    112 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.003w    112 calls
+| | New vector                      :      0.000u      0.000s      0.004w    112 calls
+HF: Form C                          :      0.067u      0.000s      0.023w    120 calls
+Grad: V T Perturb                   :      0.167u      0.067s      0.128w      9 calls
+Grad: S                             :      0.017u      0.000s      0.004w      9 calls
+Grad: JK                            :     11.600u      0.000s      6.967w      9 calls
+Grad: XC                            :      0.000u      0.000s      0.000w      9 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:45:18 2021
+Timers Off: Tue Jan  5 13:48:41 2021
+
+Wall Time:      203.73 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     55.950u      1.533s     34.327w    163 calls
+HF: Form core H                     :      0.050u      0.000s      0.176w    163 calls
+HF: Form S/X                        :      0.033u      0.000s      0.048w    163 calls
+HF: Guess                           :      1.967u      0.000s      1.199w    163 calls
+SAD Guess                           :      1.867u      0.000s      1.119w     10 calls
+HF: Form G                          :     14.050u      0.467s      8.934w   2393 calls
+JK: D                               :      0.000u      0.000s      0.021w   2393 calls
+JK: USO2AO                          :      0.267u      0.017s      0.130w   2393 calls
+JK: JK                              :     13.417u      0.433s      8.469w   2393 calls
+PK computes JK                      :     13.417u      0.433s      8.466w   2393 calls
+JK: AO2USO                          :      0.133u      0.000s      0.193w   2393 calls
+HF: Form F                          :      0.000u      0.000s      0.024w   2393 calls
+HF: Form D                          :      0.067u      0.000s      0.031w   2393 calls
+HF: DIIS                            :      2.333u      0.100s      1.174w   2383 calls
+DIISManager::add_entry              :      0.267u      0.017s      0.146w   2230 calls
+DIISManager::extrapolate            :      0.767u      0.033s      0.332w   2230 calls
+bMatrix setup                       :      0.367u      0.017s      0.136w   2230 calls
+bMatrix pseudoinverse               :      0.183u      0.017s      0.067w   2230 calls
+New vector                          :      0.217u      0.000s      0.122w   2230 calls
+HF: Form C                          :      1.433u      0.050s      0.824w   2383 calls
+Grad: V T Perturb                   :      3.250u      0.150s      2.034w    163 calls
+Grad: S                             :      0.150u      0.000s      0.104w    163 calls
+Grad: JK                            :    211.650u      0.000s    127.034w    163 calls
+Grad: XC                            :      0.000u      0.000s      0.000w    163 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     55.950u      1.533s     34.327w    163 calls
+HF: Form core H                     :      0.050u      0.000s      0.176w    163 calls
+HF: Form S/X                        :      0.033u      0.000s      0.048w    163 calls
+HF: Guess                           :      1.967u      0.000s      1.199w    163 calls
+| SAD Guess                         :      1.867u      0.000s      1.119w     10 calls
+HF: Form G                          :     14.050u      0.467s      8.934w   2393 calls
+| JK: D                             :      0.000u      0.000s      0.021w   2393 calls
+| JK: USO2AO                        :      0.267u      0.017s      0.130w   2393 calls
+| JK: JK                            :     13.417u      0.433s      8.469w   2393 calls
+| | PK computes JK                  :     13.417u      0.433s      8.466w   2393 calls
+| JK: AO2USO                        :      0.133u      0.000s      0.193w   2393 calls
+HF: Form F                          :      0.000u      0.000s      0.024w   2393 calls
+HF: Form D                          :      0.067u      0.000s      0.031w   2393 calls
+HF: DIIS                            :      2.333u      0.100s      1.174w   2383 calls
+| DIISManager::add_entry            :      0.267u      0.017s      0.146w   2230 calls
+| DIISManager::extrapolate          :      0.767u      0.033s      0.332w   2230 calls
+| | bMatrix setup                   :      0.367u      0.017s      0.136w   2230 calls
+| | bMatrix pseudoinverse           :      0.183u      0.017s      0.067w   2230 calls
+| | New vector                      :      0.217u      0.000s      0.122w   2230 calls
+HF: Form C                          :      1.433u      0.050s      0.824w   2383 calls
+Grad: V T Perturb                   :      3.250u      0.150s      2.034w    163 calls
+Grad: S                             :      0.150u      0.000s      0.104w    163 calls
+Grad: JK                            :    211.650u      0.000s    127.034w    163 calls
+Grad: XC                            :      0.000u      0.000s      0.000w    163 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:50:42 2021
+Timers Off: Tue Jan  5 13:51:00 2021
+
+Wall Time:       18.11 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      5.017u      0.083s      3.047w     14 calls
+HF: Form core H                     :      0.000u      0.000s      0.015w     14 calls
+HF: Form S/X                        :      0.000u      0.000s      0.004w     14 calls
+HF: Guess                           :      0.200u      0.000s      0.119w     14 calls
+SAD Guess                           :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      1.217u      0.017s      0.865w    230 calls
+JK: D                               :      0.000u      0.000s      0.002w    230 calls
+JK: USO2AO                          :      0.050u      0.000s      0.013w    230 calls
+JK: JK                              :      1.100u      0.017s      0.820w    230 calls
+PK computes JK                      :      1.100u      0.017s      0.820w    230 calls
+JK: AO2USO                          :      0.017u      0.000s      0.018w    230 calls
+HF: Form F                          :      0.017u      0.000s      0.002w    230 calls
+HF: Form D                          :      0.017u      0.000s      0.003w    230 calls
+HF: DIIS                            :      0.250u      0.000s      0.115w    229 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.014w    216 calls
+DIISManager::extrapolate            :      0.100u      0.000s      0.034w    216 calls
+bMatrix setup                       :      0.033u      0.000s      0.014w    216 calls
+bMatrix pseudoinverse               :      0.017u      0.000s      0.007w    216 calls
+New vector                          :      0.050u      0.000s      0.013w    216 calls
+HF: Form C                          :      0.100u      0.000s      0.080w    229 calls
+Grad: V T Perturb                   :      0.250u      0.067s      0.194w     14 calls
+Grad: S                             :      0.017u      0.000s      0.009w     14 calls
+Grad: JK                            :     18.383u      0.000s     11.040w     14 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     14 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      5.017u      0.083s      3.047w     14 calls
+HF: Form core H                     :      0.000u      0.000s      0.015w     14 calls
+HF: Form S/X                        :      0.000u      0.000s      0.004w     14 calls
+HF: Guess                           :      0.200u      0.000s      0.119w     14 calls
+| SAD Guess                         :      0.183u      0.000s      0.111w      1 calls
+HF: Form G                          :      1.217u      0.017s      0.865w    230 calls
+| JK: D                             :      0.000u      0.000s      0.002w    230 calls
+| JK: USO2AO                        :      0.050u      0.000s      0.013w    230 calls
+| JK: JK                            :      1.100u      0.017s      0.820w    230 calls
+| | PK computes JK                  :      1.100u      0.017s      0.820w    230 calls
+| JK: AO2USO                        :      0.017u      0.000s      0.018w    230 calls
+HF: Form F                          :      0.017u      0.000s      0.002w    230 calls
+HF: Form D                          :      0.017u      0.000s      0.003w    230 calls
+HF: DIIS                            :      0.250u      0.000s      0.115w    229 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.014w    216 calls
+| DIISManager::extrapolate          :      0.100u      0.000s      0.034w    216 calls
+| | bMatrix setup                   :      0.033u      0.000s      0.014w    216 calls
+| | bMatrix pseudoinverse           :      0.017u      0.000s      0.007w    216 calls
+| | New vector                      :      0.050u      0.000s      0.013w    216 calls
+HF: Form C                          :      0.100u      0.000s      0.080w    229 calls
+Grad: V T Perturb                   :      0.250u      0.067s      0.194w     14 calls
+Grad: S                             :      0.017u      0.000s      0.009w     14 calls
+Grad: JK                            :     18.383u      0.000s     11.040w     14 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     14 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:51:31 2021
+Timers Off: Tue Jan  5 13:53:35 2021
+
+Wall Time:      124.57 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     34.117u      0.650s     20.896w    100 calls
+HF: Form core H                     :      0.050u      0.000s      0.106w    100 calls
+HF: Form S/X                        :      0.033u      0.000s      0.028w    100 calls
+HF: Guess                           :      0.200u      0.000s      0.123w    100 calls
+SAD Guess                           :      0.183u      0.000s      0.113w      1 calls
+HF: Form G                          :      8.333u      0.200s      4.948w   1320 calls
+JK: D                               :      0.000u      0.000s      0.012w   1320 calls
+JK: USO2AO                          :      0.167u      0.000s      0.073w   1320 calls
+JK: JK                              :      7.983u      0.200s      4.689w   1320 calls
+PK computes JK                      :      7.983u      0.200s      4.688w   1320 calls
+JK: AO2USO                          :      0.167u      0.000s      0.107w   1320 calls
+HF: Form F                          :      0.017u      0.000s      0.013w   1320 calls
+HF: Form D                          :      0.050u      0.000s      0.018w   1320 calls
+HF: DIIS                            :      0.900u      0.000s      0.644w   1319 calls
+DIISManager::add_entry              :      0.100u      0.000s      0.084w   1220 calls
+DIISManager::extrapolate            :      0.300u      0.000s      0.175w   1220 calls
+bMatrix setup                       :      0.133u      0.000s      0.071w   1220 calls
+bMatrix pseudoinverse               :      0.067u      0.000s      0.037w   1220 calls
+New vector                          :      0.083u      0.000s      0.064w   1220 calls
+HF: Form C                          :      0.750u      0.000s      0.459w   1319 calls
+Grad: V T Perturb                   :      2.100u      0.333s      1.389w    100 calls
+Grad: S                             :      0.083u      0.000s      0.065w    100 calls
+Grad: JK                            :    131.400u      0.017s     78.839w    100 calls
+Grad: XC                            :      0.000u      0.000s      0.000w    100 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     34.117u      0.650s     20.896w    100 calls
+HF: Form core H                     :      0.050u      0.000s      0.106w    100 calls
+HF: Form S/X                        :      0.033u      0.000s      0.028w    100 calls
+HF: Guess                           :      0.200u      0.000s      0.123w    100 calls
+| SAD Guess                         :      0.183u      0.000s      0.113w      1 calls
+HF: Form G                          :      8.333u      0.200s      4.948w   1320 calls
+| JK: D                             :      0.000u      0.000s      0.012w   1320 calls
+| JK: USO2AO                        :      0.167u      0.000s      0.073w   1320 calls
+| JK: JK                            :      7.983u      0.200s      4.689w   1320 calls
+| | PK computes JK                  :      7.983u      0.200s      4.688w   1320 calls
+| JK: AO2USO                        :      0.167u      0.000s      0.107w   1320 calls
+HF: Form F                          :      0.017u      0.000s      0.013w   1320 calls
+HF: Form D                          :      0.050u      0.000s      0.018w   1320 calls
+HF: DIIS                            :      0.900u      0.000s      0.644w   1319 calls
+| DIISManager::add_entry            :      0.100u      0.000s      0.084w   1220 calls
+| DIISManager::extrapolate          :      0.300u      0.000s      0.175w   1220 calls
+| | bMatrix setup                   :      0.133u      0.000s      0.071w   1220 calls
+| | bMatrix pseudoinverse           :      0.067u      0.000s      0.037w   1220 calls
+| | New vector                      :      0.083u      0.000s      0.064w   1220 calls
+HF: Form C                          :      0.750u      0.000s      0.459w   1319 calls
+Grad: V T Perturb                   :      2.100u      0.333s      1.389w    100 calls
+Grad: S                             :      0.083u      0.000s      0.065w    100 calls
+Grad: JK                            :    131.400u      0.017s     78.839w    100 calls
+Grad: XC                            :      0.000u      0.000s      0.000w    100 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 13:55:25 2021
+Timers Off: Tue Jan  5 13:57:09 2021
+
+Wall Time:      104.19 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     28.233u      0.550s     17.300w     81 calls
+HF: Form core H                     :      0.033u      0.033s      0.086w     81 calls
+HF: Form S/X                        :      0.067u      0.000s      0.024w     81 calls
+HF: Guess                           :      0.233u      0.000s      0.140w     81 calls
+SAD Guess                           :      0.200u      0.000s      0.119w      1 calls
+HF: Form G                          :     10.533u      0.350s      6.461w   1728 calls
+JK: D                               :      0.050u      0.000s      0.014w   1728 calls
+JK: USO2AO                          :      0.183u      0.000s      0.094w   1728 calls
+JK: JK                              :      9.767u      0.333s      6.126w   1728 calls
+PK computes JK                      :      9.767u      0.333s      6.124w   1728 calls
+JK: AO2USO                          :      0.283u      0.000s      0.139w   1728 calls
+HF: Form F                          :      0.017u      0.000s      0.017w   1728 calls
+HF: Form D                          :      0.050u      0.000s      0.023w   1728 calls
+HF: DIIS                            :      1.383u      0.033s      0.879w   1727 calls
+DIISManager::add_entry              :      0.100u      0.000s      0.096w   1647 calls
+DIISManager::extrapolate            :      0.367u      0.017s      0.278w   1647 calls
+bMatrix setup                       :      0.150u      0.000s      0.117w   1647 calls
+bMatrix pseudoinverse               :      0.033u      0.000s      0.053w   1647 calls
+New vector                          :      0.167u      0.017s      0.102w   1647 calls
+HF: Form C                          :      1.000u      0.050s      0.595w   1727 calls
+Grad: V T Perturb                   :      1.767u      0.317s      1.137w     80 calls
+Grad: S                             :      0.050u      0.017s      0.053w     80 calls
+Grad: JK                            :    105.017u      0.000s     63.055w     80 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     80 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     28.233u      0.550s     17.300w     81 calls
+HF: Form core H                     :      0.033u      0.033s      0.086w     81 calls
+HF: Form S/X                        :      0.067u      0.000s      0.024w     81 calls
+HF: Guess                           :      0.233u      0.000s      0.140w     81 calls
+| SAD Guess                         :      0.200u      0.000s      0.119w      1 calls
+HF: Form G                          :     10.533u      0.350s      6.461w   1728 calls
+| JK: D                             :      0.050u      0.000s      0.014w   1728 calls
+| JK: USO2AO                        :      0.183u      0.000s      0.094w   1728 calls
+| JK: JK                            :      9.767u      0.333s      6.126w   1728 calls
+| | PK computes JK                  :      9.767u      0.333s      6.124w   1728 calls
+| JK: AO2USO                        :      0.283u      0.000s      0.139w   1728 calls
+HF: Form F                          :      0.017u      0.000s      0.017w   1728 calls
+HF: Form D                          :      0.050u      0.000s      0.023w   1728 calls
+HF: DIIS                            :      1.383u      0.033s      0.879w   1727 calls
+| DIISManager::add_entry            :      0.100u      0.000s      0.096w   1647 calls
+| DIISManager::extrapolate          :      0.367u      0.017s      0.278w   1647 calls
+| | bMatrix setup                   :      0.150u      0.000s      0.117w   1647 calls
+| | bMatrix pseudoinverse           :      0.033u      0.000s      0.053w   1647 calls
+| | New vector                      :      0.167u      0.017s      0.102w   1647 calls
+HF: Form C                          :      1.000u      0.050s      0.595w   1727 calls
+Grad: V T Perturb                   :      1.767u      0.317s      1.137w     80 calls
+Grad: S                             :      0.050u      0.017s      0.053w     80 calls
+Grad: JK                            :    105.017u      0.000s     63.055w     80 calls
+Grad: XC                            :      0.000u      0.000s      0.000w     80 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 14:33:50 2021
+Timers Off: Tue Jan  5 14:34:19 2021
+
+Wall Time:       28.94 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     17.150u      0.300s     10.431w     50 calls
+HF: Form core H                     :      0.050u      0.000s      0.021w     50 calls
+HF: Form S/X                        :      0.000u      0.017s      0.012w     50 calls
+HF: Guess                           :      9.950u      0.033s      5.979w     50 calls
+SAD Guess                           :      9.317u      0.017s      5.602w     50 calls
+HF: Form G                          :      4.300u      0.083s      2.663w    725 calls
+JK: D                               :      0.000u      0.000s      0.006w    725 calls
+JK: USO2AO                          :      0.150u      0.000s      0.039w    725 calls
+JK: JK                              :      3.883u      0.083s      2.521w    725 calls
+PK computes JK                      :      3.883u      0.083s      2.520w    725 calls
+JK: AO2USO                          :      0.133u      0.000s      0.058w    725 calls
+HF: Form F                          :      0.017u      0.000s      0.007w    725 calls
+HF: Form D                          :      0.000u      0.000s      0.009w    725 calls
+HF: DIIS                            :      0.517u      0.033s      0.354w    675 calls
+DIISManager::add_entry              :      0.050u      0.017s      0.044w    675 calls
+DIISManager::extrapolate            :      0.133u      0.000s      0.103w    675 calls
+bMatrix setup                       :      0.050u      0.000s      0.043w    675 calls
+bMatrix pseudoinverse               :      0.017u      0.000s      0.021w    675 calls
+New vector                          :      0.067u      0.000s      0.037w    675 calls
+HF: Form C                          :      0.383u      0.000s      0.229w    675 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     17.150u      0.300s     10.431w     50 calls
+HF: Form core H                     :      0.050u      0.000s      0.021w     50 calls
+HF: Form S/X                        :      0.000u      0.017s      0.012w     50 calls
+HF: Guess                           :      9.950u      0.033s      5.979w     50 calls
+| SAD Guess                         :      9.317u      0.017s      5.602w     50 calls
+HF: Form G                          :      4.300u      0.083s      2.663w    725 calls
+| JK: D                             :      0.000u      0.000s      0.006w    725 calls
+| JK: USO2AO                        :      0.150u      0.000s      0.039w    725 calls
+| JK: JK                            :      3.883u      0.083s      2.521w    725 calls
+| | PK computes JK                  :      3.883u      0.083s      2.520w    725 calls
+| JK: AO2USO                        :      0.133u      0.000s      0.058w    725 calls
+HF: Form F                          :      0.017u      0.000s      0.007w    725 calls
+HF: Form D                          :      0.000u      0.000s      0.009w    725 calls
+HF: DIIS                            :      0.517u      0.033s      0.354w    675 calls
+| DIISManager::add_entry            :      0.050u      0.017s      0.044w    675 calls
+| DIISManager::extrapolate          :      0.133u      0.000s      0.103w    675 calls
+| | bMatrix setup                   :      0.050u      0.000s      0.043w    675 calls
+| | bMatrix pseudoinverse           :      0.017u      0.000s      0.021w    675 calls
+| | New vector                      :      0.067u      0.000s      0.037w    675 calls
+HF: Form C                          :      0.383u      0.000s      0.229w    675 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Tue Jan  5 14:35:47 2021
+Timers Off: Tue Jan  5 14:36:45 2021
+
+Wall Time:       57.75 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     34.367u      0.117s     20.652w    100 calls
+HF: Form core H                     :      0.050u      0.000s      0.047w    100 calls
+HF: Form S/X                        :      0.050u      0.000s      0.024w    100 calls
+HF: Guess                           :     19.617u      0.083s     11.877w    100 calls
+SAD Guess                           :     18.517u      0.067s     11.128w    100 calls
+HF: Form G                          :      9.517u      0.350s      5.613w   1517 calls
+JK: D                               :      0.033u      0.000s      0.014w   1517 calls
+JK: USO2AO                          :      0.150u      0.000s      0.082w   1517 calls
+JK: JK                              :      8.950u      0.350s      5.313w   1517 calls
+PK computes JK                      :      8.950u      0.350s      5.311w   1517 calls
+JK: AO2USO                          :      0.217u      0.000s      0.120w   1517 calls
+HF: Form F                          :      0.000u      0.000s      0.015w   1517 calls
+HF: Form D                          :      0.017u      0.000s      0.021w   1517 calls
+HF: DIIS                            :      1.100u      0.000s      0.761w   1417 calls
+DIISManager::add_entry              :      0.150u      0.000s      0.096w   1417 calls
+DIISManager::extrapolate            :      0.150u      0.000s      0.224w   1417 calls
+bMatrix setup                       :      0.067u      0.000s      0.096w   1417 calls
+bMatrix pseudoinverse               :      0.017u      0.000s      0.044w   1417 calls
+New vector                          :      0.067u      0.000s      0.080w   1417 calls
+HF: Form C                          :      0.650u      0.000s      0.480w   1417 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     34.367u      0.117s     20.652w    100 calls
+HF: Form core H                     :      0.050u      0.000s      0.047w    100 calls
+HF: Form S/X                        :      0.050u      0.000s      0.024w    100 calls
+HF: Guess                           :     19.617u      0.083s     11.877w    100 calls
+| SAD Guess                         :     18.517u      0.067s     11.128w    100 calls
+HF: Form G                          :      9.517u      0.350s      5.613w   1517 calls
+| JK: D                             :      0.033u      0.000s      0.014w   1517 calls
+| JK: USO2AO                        :      0.150u      0.000s      0.082w   1517 calls
+| JK: JK                            :      8.950u      0.350s      5.313w   1517 calls
+| | PK computes JK                  :      8.950u      0.350s      5.311w   1517 calls
+| JK: AO2USO                        :      0.217u      0.000s      0.120w   1517 calls
+HF: Form F                          :      0.000u      0.000s      0.015w   1517 calls
+HF: Form D                          :      0.017u      0.000s      0.021w   1517 calls
+HF: DIIS                            :      1.100u      0.000s      0.761w   1417 calls
+| DIISManager::add_entry            :      0.150u      0.000s      0.096w   1417 calls
+| DIISManager::extrapolate          :      0.150u      0.000s      0.224w   1417 calls
+| | bMatrix setup                   :      0.067u      0.000s      0.096w   1417 calls
+| | bMatrix pseudoinverse           :      0.017u      0.000s      0.044w   1417 calls
+| | New vector                      :      0.067u      0.000s      0.080w   1417 calls
+HF: Form C                          :      0.650u      0.000s      0.480w   1417 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Wed Jan  6 10:44:20 2021
+Timers Off: Wed Jan  6 10:44:34 2021
+
+Wall Time:       14.69 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      8.517u      0.083s      5.165w     25 calls
+HF: Form core H                     :      0.000u      0.033s      0.014w     25 calls
+HF: Form S/X                        :      0.000u      0.000s      0.006w     25 calls
+HF: Guess                           :      4.917u      0.033s      2.969w     25 calls
+SAD Guess                           :      4.600u      0.017s      2.781w     25 calls
+HF: Form G                          :      2.283u      0.017s      1.450w    396 calls
+JK: D                               :      0.000u      0.000s      0.003w    396 calls
+JK: USO2AO                          :      0.033u      0.000s      0.021w    396 calls
+JK: JK                              :      2.217u      0.017s      1.373w    396 calls
+PK computes JK                      :      2.217u      0.017s      1.372w    396 calls
+JK: AO2USO                          :      0.017u      0.000s      0.031w    396 calls
+HF: Form F                          :      0.017u      0.000s      0.004w    396 calls
+HF: Form D                          :      0.000u      0.000s      0.005w    396 calls
+HF: DIIS                            :      0.350u      0.017s      0.195w    371 calls
+DIISManager::add_entry              :      0.067u      0.000s      0.024w    371 calls
+DIISManager::extrapolate            :      0.083u      0.017s      0.057w    371 calls
+bMatrix setup                       :      0.050u      0.017s      0.024w    371 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.012w    371 calls
+New vector                          :      0.033u      0.000s      0.020w    371 calls
+HF: Form C                          :      0.250u      0.000s      0.125w    371 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      8.517u      0.083s      5.165w     25 calls
+HF: Form core H                     :      0.000u      0.033s      0.014w     25 calls
+HF: Form S/X                        :      0.000u      0.000s      0.006w     25 calls
+HF: Guess                           :      4.917u      0.033s      2.969w     25 calls
+| SAD Guess                         :      4.600u      0.017s      2.781w     25 calls
+HF: Form G                          :      2.283u      0.017s      1.450w    396 calls
+| JK: D                             :      0.000u      0.000s      0.003w    396 calls
+| JK: USO2AO                        :      0.033u      0.000s      0.021w    396 calls
+| JK: JK                            :      2.217u      0.017s      1.373w    396 calls
+| | PK computes JK                  :      2.217u      0.017s      1.372w    396 calls
+| JK: AO2USO                        :      0.017u      0.000s      0.031w    396 calls
+HF: Form F                          :      0.017u      0.000s      0.004w    396 calls
+HF: Form D                          :      0.000u      0.000s      0.005w    396 calls
+HF: DIIS                            :      0.350u      0.017s      0.195w    371 calls
+| DIISManager::add_entry            :      0.067u      0.000s      0.024w    371 calls
+| DIISManager::extrapolate          :      0.083u      0.017s      0.057w    371 calls
+| | bMatrix setup                   :      0.050u      0.017s      0.024w    371 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.012w    371 calls
+| | New vector                      :      0.033u      0.000s      0.020w    371 calls
+HF: Form C                          :      0.250u      0.000s      0.125w    371 calls
+
+**************************************************************************************
+
+Host: smg13363-ws
+
+Timers On : Wed Jan  6 10:46:30 2021
+Timers Off: Wed Jan  6 10:46:45 2021
+
+Wall Time:       14.74 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      8.517u      0.033s      5.134w     25 calls
+HF: Form core H                     :      0.017u      0.017s      0.013w     25 calls
+HF: Form S/X                        :      0.017u      0.000s      0.006w     25 calls
+HF: Guess                           :      4.900u      0.033s      2.960w     25 calls
+SAD Guess                           :      4.667u      0.017s      2.773w     25 calls
+HF: Form G                          :      2.683u      0.033s      1.532w    419 calls
+JK: D                               :      0.017u      0.000s      0.004w    419 calls
+JK: USO2AO                          :      0.067u      0.000s      0.023w    419 calls
+JK: JK                              :      2.533u      0.033s      1.451w    419 calls
+PK computes JK                      :      2.533u      0.033s      1.450w    419 calls
+JK: AO2USO                          :      0.033u      0.000s      0.033w    419 calls
+HF: Form F                          :      0.000u      0.000s      0.004w    419 calls
+HF: Form D                          :      0.000u      0.000s      0.005w    419 calls
+HF: DIIS                            :      0.283u      0.017s      0.209w    394 calls
+DIISManager::add_entry              :      0.033u      0.017s      0.026w    394 calls
+DIISManager::extrapolate            :      0.083u      0.000s      0.061w    394 calls
+bMatrix setup                       :      0.050u      0.000s      0.026w    394 calls
+bMatrix pseudoinverse               :      0.033u      0.000s      0.012w    394 calls
+New vector                          :      0.000u      0.000s      0.022w    394 calls
+HF: Form C                          :      0.217u      0.000s      0.132w    394 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      8.517u      0.033s      5.134w     25 calls
+HF: Form core H                     :      0.017u      0.017s      0.013w     25 calls
+HF: Form S/X                        :      0.017u      0.000s      0.006w     25 calls
+HF: Guess                           :      4.900u      0.033s      2.960w     25 calls
+| SAD Guess                         :      4.667u      0.017s      2.773w     25 calls
+HF: Form G                          :      2.683u      0.033s      1.532w    419 calls
+| JK: D                             :      0.017u      0.000s      0.004w    419 calls
+| JK: USO2AO                        :      0.067u      0.000s      0.023w    419 calls
+| JK: JK                            :      2.533u      0.033s      1.451w    419 calls
+| | PK computes JK                  :      2.533u      0.033s      1.450w    419 calls
+| JK: AO2USO                        :      0.033u      0.000s      0.033w    419 calls
+HF: Form F                          :      0.000u      0.000s      0.004w    419 calls
+HF: Form D                          :      0.000u      0.000s      0.005w    419 calls
+HF: DIIS                            :      0.283u      0.017s      0.209w    394 calls
+| DIISManager::add_entry            :      0.033u      0.017s      0.026w    394 calls
+| DIISManager::extrapolate          :      0.083u      0.000s      0.061w    394 calls
+| | bMatrix setup                   :      0.050u      0.000s      0.026w    394 calls
+| | bMatrix pseudoinverse           :      0.033u      0.000s      0.012w    394 calls
+| | New vector                      :      0.000u      0.000s      0.022w    394 calls
+HF: Form C                          :      0.217u      0.000s      0.132w    394 calls
+
+**************************************************************************************

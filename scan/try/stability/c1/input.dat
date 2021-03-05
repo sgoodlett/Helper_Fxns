@@ -1,0 +1,26 @@
+memory 24 GB
+molecule {
+symmetry c1
+0 3
+O
+H 1 R1
+O 1 R3 2 A1
+H 3 R2 1 A2 2 D1
+A1        =   91.0886920327
+A2        =   91.0886920327
+D1        = -180.0000000000
+R1        =    0.9525332588
+R2        =    0.9525332588
+R3        =    1.8090589995
+}
+set {
+basis aug-cc-pvdz
+e_convergence 10
+reference uhf
+scf_type pk
+stability_analysis follow
+}
+
+wfn = energy("scf", return_wfn=True)[1]
+wfn.write_molden('c1.molden')
+

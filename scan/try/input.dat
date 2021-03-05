@@ -1,0 +1,25 @@
+molecule {
+0 3
+O
+O 1 r1
+H 1 r2 2 a1
+H 2 r3 1 a2 3 d1
+
+r1 = 1.809056191785725
+r2 = 1.1
+r3 = 0.80
+a1 = 91.083269531831675
+a2 = 91.083269531831675
+d1 = 180.000000000000000
+}
+
+set {
+e_convergence 10
+scf_type pk
+reference uhf
+basis aug-cc-pvdz
+mp2_type conv
+}
+
+optimize('mp2')
+

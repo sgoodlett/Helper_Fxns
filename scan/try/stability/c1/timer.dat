@@ -1,0 +1,59 @@
+
+Host: smg13363-ws
+
+Timers On : Fri Jan  8 11:07:21 2021
+Timers Off: Fri Jan  8 11:07:24 2021
+
+Wall Time:        2.91 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      1.033u      0.017s      0.641w      3 calls
+HF: Form core H                     :      0.017u      0.000s      0.002w      1 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      1 calls
+HF: Guess                           :      0.183u      0.000s      0.115w      1 calls
+SAD Guess                           :      0.183u      0.000s      0.108w      1 calls
+HF: Form G                          :      0.383u      0.017s      0.220w     26 calls
+JK: D                               :      0.000u      0.000s      0.001w     62 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     62 calls
+JK: JK                              :      2.567u      0.017s      1.523w     62 calls
+PK computes JK                      :      2.567u      0.017s      1.523w     62 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     62 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     26 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     26 calls
+HF: DIIS                            :      0.000u      0.000s      0.014w     25 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.001w     25 calls
+DIISManager::extrapolate            :      0.000u      0.000s      0.004w     25 calls
+bMatrix setup                       :      0.000u      0.000s      0.002w     25 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.001w     25 calls
+New vector                          :      0.000u      0.000s      0.002w     25 calls
+HF: Form C                          :      0.017u      0.000s      0.014w     25 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      1.033u      0.017s      0.641w      3 calls
+HF: Form core H                     :      0.017u      0.000s      0.002w      1 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      1 calls
+HF: Guess                           :      0.183u      0.000s      0.115w      1 calls
+| SAD Guess                         :      0.183u      0.000s      0.108w      1 calls
+HF: Form G                          :      0.383u      0.017s      0.220w     26 calls
+| JK: D                             :      0.000u      0.000s      0.000w     26 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     26 calls
+| JK: JK                            :      0.383u      0.017s      0.218w     26 calls
+| | PK computes JK                  :      0.383u      0.017s      0.218w     26 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     26 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     26 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     26 calls
+HF: DIIS                            :      0.000u      0.000s      0.014w     25 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.001w     25 calls
+| DIISManager::extrapolate          :      0.000u      0.000s      0.004w     25 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.002w     25 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.001w     25 calls
+| | New vector                      :      0.000u      0.000s      0.002w     25 calls
+HF: Form C                          :      0.017u      0.000s      0.014w     25 calls
+JK: D                               :      0.000u      0.000s      0.000w     36 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     36 calls
+JK: JK                              :      2.183u      0.000s      1.305w     36 calls
+| PK computes JK                    :      2.183u      0.000s      1.305w     36 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     36 calls
+
+**************************************************************************************
